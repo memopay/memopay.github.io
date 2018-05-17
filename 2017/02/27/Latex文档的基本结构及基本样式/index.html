@@ -1,0 +1,390 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>LaTex文档的基本结构及基本样式 | 二卜二 WishMemo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="二卜二">
+    
+    <meta name="description" content="Latex文档的基本结构及基本样式首先建议大家如果真的有心学，最好是去书店里买本书仔细看看，因为细节知识是非常多的。我这里只能讲解一些概要，不可能面面俱到。 Latex文档的基本结构如下：
+ 文档类型声明 宏包包含区 自定义命令区（全局设定区） 标题区 正文区——–正文             | ">
+    
+    
+    
+    
+    <link rel="alternate" href="atom.xml" title="二卜二 WishMemo" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="二卜二 WishMemo" title="二卜二 WishMemo"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="二卜二 WishMemo">二卜二 WishMemo</a></h1>
+				<h2 class="blog-motto">杂记：只想告诉你在这个世界上，什么才是我想说的</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">文章</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+						<li><a href="/atom.xml">RSS订阅</a></li>
+					
+					<li>
+					
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="30" placeholder="搜索" />
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/02/27/Latex文档的基本结构及基本样式/" title="LaTex文档的基本结构及基本样式" itemprop="url">LaTex文档的基本结构及基本样式</a>
+  </h1>
+  <!-- 显示作者
+  <p class="article-author">By
+    
+      <a href="http://memowish.com" title="二卜二">二卜二</a>
+    </p>
+  -->
+  <p class="article-time">
+    <span id="busuanzi_container_page_pv"> 总阅读<span id="busuanzi_value_page_pv"></span>次</span>
+    <time datetime="2017-02-27T06:37:54.000Z" itemprop="datePublished">2017-02-27</time>
+    更新日期:<time datetime="2017-02-27T06:45:46.589Z" itemprop="dateModified">2017-02-27</time>
+    
+  </p>
+</header>
+
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+		</div>
+		
+		<p>Latex文档的基本结构及基本样式<br>首先建议大家如果真的有心学，最好是去书店里买本书仔细看看，因为细节知识是非常多的。我这里只能讲解一些概要，不可能面面俱到。<br> Latex文档的基本结构如下：</p>
+<p> 文档类型声明<br> 宏包包含区<br> 自定义命令区（全局设定区）<br> 标题区<br> 正文区——–正文<br>             |<br>    —–参考文献</p>
+<p> 将上述结构翻译成代码即为如下：<br> %文档类型声明<br> \documentclass[a4paper,11pt,onecolumn]{article}</p>
+<p> %宏包包含区<br> \usepackage{CJK}<br> %自定义命令区（全局设定区）<br> \renewcommand{\baselinestretch}{1.5} %定义行间距<br> %标题区<br> \title{  }<br> \author{ }</p>
+<p> %正文区<br> \begin{document}<br> ….<br> \end{document}<br> 上述即为Latex文档的基本结构了。大家可能还不十分懂这些命令到底起什么作用，但是根据各个英文单词的含意，应该能够猜测到一些意思了吧。同时，这也展示了Latex一个特点：每个命令都使用完整的很容易懂的英文单词，而不是缩写，所以很明了，学习起来不难。</p>
+<p> 下面我给出一个英文文档的基本例子。<br> \documentclass[a4paper,11pt]{article}<br> \begin{document}<br> Hello, world!<br> \end{document}<br> 就这样四行简短的代码，会得到图1的效果。<br> \documentclass[a4paper,11pt]{article} 用来说明你这篇文章用多大的纸，默认多大的字号，并且文档类型是什么。\documentclass 是命令，是每一篇文章开头必须写的。a4paper 指定现在用A4的纸；11pt 指定默认字体的大小；article 用来说明这篇文档是篇论文（当然计算机是不会认得你要写论文的，只不过它预先定义了一些格式，以article 称呼的这种格式适用于论文，所以就叫它为论文格式了）。<br> 字体大小那个选项一般不行去改动它，不写也行，系统默认为11pt。不写的话就为：\documentclass[a4paper]{article}。写论文一般用A4的纸，当然，与这个选项对应的其它选项还有b5paper 等，可根据实际需要来改变。<br> 而article 这个位置一定不能空。与之对应的参数有 book(书), report(报告), letter(信件) 等。<br>  然后是\begin{document}和\end{document}，这也是两个必须写的命令，它们是一对语句，不能只写一个而不写另一个，即必须匹配。而且在一篇文档中只能写一次这对语句。从这对语句中又可反映出Latex的一个特点：很多语句是成对出现的，而且命令名都是\begin{}和\ end{}的形式。<br> \begin{document}和\end{document}中间的那个 Hello, world! 就是文章的内容了。你在图1中看一下，是不是在左上角有个 Hello, world! :-)</p>
+<p> 好了，就这样一个文档就写好了。简单吧。<br> 但——一个严重的问题是：这个文档只能处理英文。只要打一个汉字上去，在编译时就会出错！怎么办？<br> 下面我就来详细讲一讲 Latex 是如何处理中文的。</p>
+<p> Knuth 在发明 TeX 的时候，根本没有考虑到还要处理中文字符（以及其它许多亚洲字符）——它发明 TeX 的目的就是为了排版它的巨著《计算机算法艺术》。尽管这样，Knuth 却采用了一种先进的设计思想，从底层留下了扩展接口，并将其全面公开。这样，当时他本人没有实现的一些功能，就可以通过宏包的形式加以扩展实现。这就是为什么到现在为止 30多年过去了，TeX 在底层还几乎没有改动（只发现两处小错误）。说到这里，确实不得不佩服Knuth，什么叫牛人，这就是。计算机科学家写出的软件与一般程序员的软件就是不同！</p>
+<p> Latex中处理中文，需要用一个叫做 CJK 的宏包（宏包就是预先定义了一些命令及格式的一个文档，学过 C 语言的同学都应该了解的）。<br>    CJK是由Werner Lemberg开发的支持中、日、韩、英文字的宏包。CJK的特点是不需要象CCT那样预处理，支持PDFLatex和Type1字体，因此得到越来越多中国TeXer的喜爱，逐渐成为中文LaTeX的主流。而我提供的那个包里面就已经含有了。（可以毫不夸张地说，几乎所有已经出现的宏包在那个软件包里面都有自己的位置）<br> 这个宏包通过一个字符映射表，来实现汉字的处理。讲下去就比较深了，这里暂且说到这么多。<br> 下面我就给出一个处理中文的基本样例。<br> \documentclass[a4paper]{article}<br> \usepackage{CJK}<br> \begin{document}<br> \begin{CJK<em>}{GBK}{song}<br> 你好，世界！<br> \end{CJK</em>}<br> \end{document}<br> 生成的效果图如图2 。<br> 下面细细讲解一下新增的语句的作用。<br> \usepackage{CJK}表示把CJK这个宏包包含进来。\usepackage{ }就是包含宏包的命令。<br> \ begin{CJK<em>}{GBK}{song}和\end{CJK</em>}是中文字符的定界语句。意思就是要想显示中文，就得用这两句把所有中文包含起来。当然，英文字符在这里面是不受影响的。\begin{CJK*}{GBK}{song}中的最后一项，就是指宋体的意思。（我的安装包说明里面有十三种字体对应的符号名字。在Latex中使用时就用那些符号名字。）当然，你可以把它改为 kai(楷书), hei(黑体), xihei(细黑), li(隶书) 等等。</p>
+<p> 比如我将song改为kai，那么将得到如图3的效果。<br> 看，用Latex写中文文档也不复杂吧。这个文档还太小，还体现不出Latex的优势，以后用熟了，写大文档了，就能深刻地体会到了。<br> 在这里，我要着重强调一下，Linux下的字符编码问题。<br> 现在的Linux基本上都通用UTF-8编码作为其默认编码，这是事实，我们最好不要去改变它，否则很多程序的字体会出理乱码。但Latex无法支持UTF-8编码（其实可以支持，但是好像要下一个宏包，在我提供的那个里面没有，我也没用过，不会用）。于是我们后退一步，绕过这个问题。在把文档写好后，只要保存时选定编码就行了。</p>
+<p> 具体这样来实现：<br> 对gvim来说，把文档写好后。在命令模式下，输入<br> set fileencoding=GB18030<br> 如果程序提示modifiable if off。那么，可以先输入<br> set modifiable<br> 再输入<br> set fileencoding=GB18030<br> 就可以保存为GB16030编码的文件了。这样在编译时，才不会出错。</p>
+<p> 对gedit来说，把文档写好后，只需要点击保存按钮。就会出现一个保存对话框。如图4 。在此对话框的下面的字符编码中选择GB18030就可以了（没在列表中的话，可以添加）。<br> 由于保存时忘记理性编码而出现编译通不过的情况经常发生，而且还会感觉莫名奇妙。所以大家在发现编译通不过时，首先就查一下是不是编码问题。<br> 列举Latex里面主要包括哪些知识。<br>字符集<br> 文字字符集<br> 数字字符集<br>环境集<br> 居中<br> \begin{center}<br> \end{center}<br> 左对齐<br> \begin{flushleft}<br> \end{flushleft}<br> 右对齐<br> \begin{flushright}<br> \end{flushright}<br> 列举环境<br> \begin{itemize}<br> \end{itemize}</p>
+<p> \begin{enumerate}<br> \end{enumerate}<br> 保持环境<br> \verb|  |<br> \begin{verbatim}<br> \end{verbatim}<br> 小页环境<br> \begin{minipage}{size}<br> \end{minipage}<br> 诗歌环境<br> \begin{verse}<br> \end{verse}</p>
+<p> 浮动表格环境<br> \begin{table}<br> \end{table}</p>
+<p> 固定表格环境<br> \begin{tabular}<br> \end{tabular}<br> 浮动图片环境<br> \begin{figure}<br> \end{figure}<br> 数学环境<br> $ $<br> $$ $$<br> \begin{equation}<br> \end{equation}<br> \begin{array}<br> \begin{array}<br> \begin{eqnarray}<br> \end{equarray}<br>10种字号命令<br> {\tiny  }<br> {\scriptsize  }<br> {\footnotesize  }<br> {\small  }<br> {\normalsize  }<br> {\large  }<br> {\Large  }<br> {\LARGE  }<br> {\huge  }<br> {\Huge  }<br>英文字体命令<br> {\rm  } 罗马字体<br> {\bf  } 黑体<br> {\it  } 意大利字体<br> {\sc  } 小号大写字体<br> {\sl  } 斜体<br> {\tt  } 打字机字体<br> {\cal } 花体<br> {\em  } 强调型字体<br>几种数字的格式<br> \arabic{}<br> \roman{}<br> \Roman{}<br> \alph{}<br> \Alph{}<br>命令<br>文献头命令<br> 标题命令<br> \title{ }<br> 作者命令<br> \author{ }<br> 日期命令<br> \date{ }<br> 页注命令<br> \thanks{}<br> \footnote{}<br>章节命令<br> 部分命令<br> \part{}<br> 章命令<br> \chapter{}<br> 节命令<br> \section{}<br> \subsection{}<br> \subsubsection{}<br> \subsubsubsection{}<br> 附录命令<br> \appendix{}<br>使用上面所说的命令，处理一般的文字文档应该没多大问题了。但是一篇文章中还有三个很重要的部分：公式，图片，表格现在我们还没法处理。</p>
+
+
+		
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-share" id="share">
+
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/LaTex/">LaTex</a>
+  </div>
+
+
+</footer>
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2017/02/27/设置护眼保护色/" title="设置护眼保护色">
+  <strong>上一篇:</strong><br/>
+  <span>
+  设置护眼保护色</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2017/02/27/转准备论文写作工具LaTex/"  title="准备论文写作工具LaTex">
+ <strong>下一篇:</strong><br/> 
+ <span>准备论文写作工具LaTex
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+	<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2123798"></script>
+</div>
+
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/GMAIL/" title="GMAIL">GMAIL<sup>1</sup></a></li>
+		
+			<li><a href="/tags/HEXO/" title="HEXO">HEXO<sup>1</sup></a></li>
+		
+			<li><a href="/tags/LaTex/" title="LaTex">LaTex<sup>2</sup></a></li>
+		
+			<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
+		
+			<li><a href="/tags/深度学习-GAN/" title="深度学习 GAN">深度学习 GAN<sup>1</sup></a></li>
+		
+			<li><a href="/tags/生活琐事/" title="生活琐事">生活琐事<sup>13</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 二卜二 <br/>
+			Be There or Be Square</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="pacman">pacman</a> © 2018
+		
+		<a href="http://memowish.com" target="_blank" title="二卜二">二卜二</a>
+		
+		</p>
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<span id="busuanzi_container_site_pv">
+      Total visits: <span id="busuanzi_value_site_pv"></span>
+</span>
+<span id="busuanzi_container_site_uv">
+    You are Visiter No.<span id="busuanzi_value_site_uv"></span>
+</span>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F77edef7e6931022edbd2322ec66456e1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+<script type="text/javascript">
+	(function($) { 
+		// When to show the scroll link
+		// higher number = scroll link appears further down the page   
+		var upperLimit = 300;
+		
+		// Our scroll link element
+		var scrollElem = $('#totop');
+	   
+		// Scroll to top speed
+		var scrollSpeed = 800;
+	   
+		// Show and hide the scroll to top link based on scroll position   
+		scrollElem.hide();
+		$(window).scroll(function () {            
+			var scrollTop = $(document).scrollTop();       
+			if ( scrollTop > upperLimit ) {
+				$(scrollElem).stop().fadeTo(300, 1); // fade back in           
+			}else{       
+				$(scrollElem).stop().fadeTo(300, 0); // fade out
+			}
+		});
+		// Scroll to top animation on click
+		$(scrollElem).click(function(){
+			$('html, body').animate({scrollTop:0}, scrollSpeed); return false;
+		});
+	})(jQuery);
+</script>
+
+
+
+  </body>
+</html>
+

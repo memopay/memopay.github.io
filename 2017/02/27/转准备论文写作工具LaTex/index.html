@@ -1,0 +1,397 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>准备论文写作工具LaTex | 二卜二 WishMemo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="二卜二">
+    
+    <meta name="description" content="比较一下Latex与WORD各自的优缺点。 1：“所想即所得” vs. “所见即所得” WORD所遵循的思想是“所见即所得”。因此，用它写东西非常直观。而且打印的效果与在屏幕上看到的效果一模一样。另外，它还具有一定的智能化（尽管这个功能很多时候会帮倒忙）。 而Latex所遵循的思想是“所想即所得”。">
+    
+    
+    
+    
+    <link rel="alternate" href="atom.xml" title="二卜二 WishMemo" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="二卜二 WishMemo" title="二卜二 WishMemo"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="二卜二 WishMemo">二卜二 WishMemo</a></h1>
+				<h2 class="blog-motto">杂记：只想告诉你在这个世界上，什么才是我想说的</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">文章</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+						<li><a href="/atom.xml">RSS订阅</a></li>
+					
+					<li>
+					
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="30" placeholder="搜索" />
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/02/27/转准备论文写作工具LaTex/" title="准备论文写作工具LaTex" itemprop="url">准备论文写作工具LaTex</a>
+  </h1>
+  <!-- 显示作者
+  <p class="article-author">By
+    
+      <a href="http://memowish.com" title="二卜二">二卜二</a>
+    </p>
+  -->
+  <p class="article-time">
+    <span id="busuanzi_container_page_pv"> 总阅读<span id="busuanzi_value_page_pv"></span>次</span>
+    <time datetime="2017-02-27T06:24:45.000Z" itemprop="datePublished">2017-02-27</time>
+    更新日期:<time datetime="2017-02-27T06:37:18.932Z" itemprop="dateModified">2017-02-27</time>
+    
+  </p>
+</header>
+
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+		</div>
+		
+		<p>比较一下Latex与WORD各自的优缺点。<br> 1：“所想即所得” vs. “所见即所得”<br> WORD所遵循的思想是“所见即所得”。因此，用它写东西非常直观。而且打印的效果与在屏幕上看到的效果一模一样。另外，它还具有一定的智能化（尽管这个功能很多时候会帮倒忙）。<br> 而Latex所遵循的思想是“所想即所得”。意思就是你脑子里想到什么，就可以做出什么样的版式效果来。这说明它有非常强大的功能，但对这一种强大的掌握有一条相对来说陡峭一点的学习曲线。<br> 用WORD写文章直接往里面写就行了，然后用那些数不清的格式按钮对文档进行格式编排。写这些文档必须在WORD软件环境里面（你无法拿记事本来写.doc的文档）。<br> 而用Latex写文章可以使用任何一个文本编辑器。Latex有它自己专用的文件后缀名，但它的格式完全是文本文件格式。这意味着你可以使用vim，gedit,记事本等中的任何一款写Latex文档。只不过在保存文件时把后缀名改.txt为.tex就可以了。<br>  用Latex写文章需要像写程序那样来写（请不要为我的语言所吓倒，那不是像C语言那样的程序代码，要简单得多），写完之后再编译。初看起来这不是自找麻烦吗？仅仅写一篇文章就要编个程，是不是有病了。不是的，你仔细想想：一篇论文不仅包括文字，还有图片，表格，公式（对我们来说很重要），还有很多各种各样的细微的格式和版式。把这些因素加在一起，就不是仅用WORD就能很好地处理的了。而对Latex来说，这些都是小菜一碟。<br> Latex文档中，是通过插入一些标记符来标记其逻辑结构的（这方面它和HTML, XML有点类似）。这些标记符都是一些常用的英文单词，十分好记。只要花点时间用熟悉了，就可以很快地写出一篇格式漂亮的文章出来。<br> 万事开头难嘛，最难的不是记忆那些命令，而是转变一种思维，就像使用LINUX一样。（Latex和LINUX搭配是天籁之合，我的讲解也是以LINUX上的Latex为主。建议大家读读王垠的《完全用LINUX工作，摈弃WINDOWS》）</p>
+<p> 2：如果你经常编排带数学公式的文章，你可能会发现，WORD编排出来的段落不是那么令人满意，如果左对齐，那么每行的右边参差不齐，很不美观；而如果选用两边对齐，那么WORD为了达到这点要求，可能就加大了某些词与词之间的间距，那样也达不到我们满意的文章格式。能不能在行末自动地把一个单词在音节处拆开， 并加上连字符呢？ Latex可以。<br>    你一定对MathType不陌生。公式编辑器用多了，你可能就发现，WORD把公式当作图片来处理。如果你要修改文章字体的大小，这时需要一个一个地调整公式的大小，这简直是无法承受的工作量；而且，你经常会发现，WORD的公式大小并不是和正文那么适配，许多时候看起来要么大了，要么小了，尤其是碰到大行的公式，页面编排都可能因此受到影响了。而LatexX美观的公式混排，统一的公式正文大小，会令你有耳目一新，相见恨晚的感觉。<br> 3：你是否有这样一种经验：当你用WORD写完一篇大一点的含有很多插图，表格和公式的论文交给导师审阅后，导师要求你在某个地方再详细一点，多列一些数据，多插几幅图片；而在另外一些地方简略一点。这时你不得不插入新的图片（表格，公式），结果一插，把后面的原先排好的版式全打乱了。这样你又不得不重新排一遍，排好后，检查时，又发现哪个地方公式不对，得重新写。于是用MathType写了一个“体积”大一点的公式，再插入文档中，结果又发现，后面的版式又莫名其妙地被改动了。又得重新来一遍，气死人了。就这样反反复复，一个本来不复杂的工作耗费了你太多的时间，同时把心情也搞孬(我们念pie,四声)了。真不爽！<br> 还有在论文中每个图（表，公式）都有编号，当你插入一个新的图时，就打乱了先前的编号顺序，所以你还得一个一个地将先前的位于这幅图片后的那些图片（表格，公式）的编号手工改正过来。天哪，这又是一件多么恐怖的事情――我这可是科技论文啊？密密麻麻的图片，公式。你叫我如何改啊！而且这还是一遍，说不定要使一篇论文最终定稿要改N次呢！<br> 现在你是否感觉到已经忍受不了呢？你需要一种解脱。不用怕，不用恼，救星到来啦！Latex，专门解决这个问题。<br> Latex处理这个问题是基于如下一种机制：<br>  它完全用一种逻辑结构标记符来标记哪里是文章题目、作者，哪部分是摘要，哪里是小节标题，哪里是图片，哪里是表格，哪里是公式，哪里是脚注，哪里是页眉，哪里需要两栏排版，哪里则只用单栏等等等等。它对每种不同的对像都设计了一个计数器，用来记录这一类型的对象到现在是第几个。比如图片计数器，编译程序在编译时会按从前到后的顺序寻找论文中所有图片，并且找到一个便给它编一个号（从1号开始依次递增），一直到文章末尾。<br> 利用这种机制，即使在中途又插入了很多新的图片（表格，公式）的情况下，只要它们的逻辑顺序是对的（废话，逻辑顺序不对就是你写论文的水平不够了！），那么Latex就会重新从头到尾再编一次号，这样前述的那种令人头痛的问题就迎刃而解了。思想就是把无谓的重复劳动拿给机器处理，机器处理这些小东西来速度是不用担心的。于是，你被解放出来了！什么是工作效率，这就是！<br> 4：很重要的一个问题是：WORD不太稳定。当你编辑一份含大量公式的文档时，会发现WORD有时会crash，有时甚至会莫名其妙地消失。这时如果我们的工作还未保存下来的话，那就太不幸了，只有重新输入一遍。而且弄得自己人心惶惶的。<br> Latex就不存在这个问题，它是一种纯文本格式，所占用的空间（硬盘，内存）极小。再加上极稳定的编辑器VIM，几乎不会出现crash的现象。<br> 5：从美学观点来看，我实在不敢敬同WORD中的公式佷漂亮这一说法。你去图书馆随便找一本比较有名气一点的外文杂志或外文著作。它们那里面的公式多么漂亮，整体布局多么赏心悦目。虽然我不敢说那些书全是用Latex编排的，但至少可以说明一点：WORD中的公式符号不好看。虽然我不敢说那些书全是用Latex编排的，但我敢说那些书里面大部分都是用Latex及类似的（基于TeX的）软件包编排的。不信，你去比较一下那些书里面的符号和Latex教材（外面书店有卖的）里面的符号形状是不是一样的。有点使用Latex经验的人一眼就可辨别其中奥秘。<br> 这是什么意思？<br> 对！它意味着，使用Latex，你能用很简单的方法排版出具有专业水准格式的论文和杂质甚至书籍出来！<br> 6：比较现实的是，现在很多国内外杂志，要求寄去的文章按Latex格式排版(可能有些杂志可以接收WORD文档，那你可能又要在茫茫软件海洋中寻找英文WORD，因为国外根本就没有中文WORD，而你的中文WORD文档在英文WORD中什么都看不出来)。那么会用Latex就更是你迫在眉睫的需要。</p>
+<pre><code>Latex就和vi一样，在你对他一点不懂的时候，你总觉得他很难相处，但是在你了解他之后，你会越来越发现他的好。然后会爱不释手，然后会五体投地，然后会――进步:-)
+
+Latex软件的版本
+</code></pre><p> Linux和Windows平台都有各自的Latex版本。Linux下的版本主要是teTex，Windows下的版本主要有mikTex。而中国有一个比较著名的版本CTeX，它是CTeX中文套装的简称，属于二次开发版本。它是把 mikTex和一些常用的相关工具，如GSview，winEdt，yap等包含在一起制作的一个简易安装程序。并且它对其中的中文支持进行了配置，使得安装后马上就能处理中文。<br> GSview是一个浏览.ps（一种打印格式）的工具。<br> winEdt是一个专为TeX用户设计的编辑器。（但是用过它的人都会感觉到，这个编辑器打开速度太慢，功能难用，字体，界面也不好看。难怪经常被网上的人骂为垃圾）<br> yap是用查看.dvi格式的一个工具，支持“反向位置查找”功能。（这个用起来还不错）<br> 而Linux下的teTeX，我并没有直接使用。我用的是由CTAN组织制作的一款软件包TeXLive2004（以TE为核心），里面包含了几乎所有的宏包，文档及查看、转换工具。我们常用到的主要有如下几个：<br> latex 用于编译.TeX文档（这个是核心）<br> xdvi  用于查看.dvi文档（这个文档是由前面那个.TeX文档经编译后生成的）<br> dvipdfm 用于将.dvi文件转换成.pdf文件。<br> 转换成.pdf文件后，就可以方便地与别人交流了。（要知道，pdf格式可是当今世界上的几乎所有较正式的组织的电子档案的首选保存格式呀。比如，AD公司（<a href="http://www.analog.com/）的所有芯片的技术资料全是以pdf格式提供）" target="_blank" rel="external">http://www.analog.com/）的所有芯片的技术资料全是以pdf格式提供）</a><br> 而据我的使用经验，TeXLive2004安装程序并不太适合中国用户，因为它完全不含有任何一种中文字体（当然，每一款比较好的中文字体都是有版权的）,尽管网上有怎样添加的方法，但是要添加起字体来特别特别麻烦――我前段时间一直为此大伤脑筋呢！<br>  于是我将其中的绝大部分东西抽取出来，与我搜集的十三种中文字体（转换后的。注：那些字体那是有版权的，请不要用于商业目的）合起来做成了一个软件包。同时还对里面的一些配置文件作了修改，使Linux下的用户直接也能使用中文字体了。（我称其为Latex2004完全版，包里面有详细的安装说明文档）<br> 到现在，可能大家会有这样一个疑问：现在软件有了，那该怎样使用呢？而且前面介绍那么多工具。那么用LATEX写论文到底是一种什么流程呢？下面就来回答这个问题。<br> 下面就以一个实例来说明。<br> 第1步：编写好一个.tex文档。并保存。假设文件名取为example.tex，存放在~/work/目录下。<br> 第2步：打开一个终端。输入 cd work 进入到~/work/目录下。<br> 第3步：在终端中输入 latex example.tex 对example.tex这个文档进行编译。通过编译，会生成一个新文件：example.dvi（当然原来那个example.tex文件还在那里，没有消失）。<br> .dvi文件是“与设备无关的文件”，这里的设备指CPU、显示器，打印机等。这意味着这种格式的文件无论在哪台机器上，无论是怎样的显示器，无论在哪个操作系统上，看到的效果都完全是一样的。<br> 当然，这样一种格式的文件得用专门的工具来查看。Linux下，这个工具就是xdvi。<br>  第4步：在终端中输入 xdvi example.dvi 就可以查看刚才由.tex文档生成的.dvi 文件了。在这一步中，你可以检查你所输入的那些东西是不是都出应有的效果了（当然，这个应有的效果就是你头脑中的预计――所想即所得，就初步体现在这里了），如果发现有错误的文字或不合适的版面，那么就可以再回到第1步去，修改后，再编译，再查看。直到自己满意为止。<br> 第5步：在终端中输入 dvipdfm example.dvi 就会将example.dvi文件转换成为 example.pdf 文件。这时就可以用pdf浏览器查看了。<br> 至此，一篇论文就基本完成了。归纳起来，就是如下步骤：<br>      latex  dvipdfm<br> .tex——-&gt;.dvi——-&gt;.pdf</p>
+<p>CTeX 套装 – 更新记录 – 下载中心</p>
+<p>下载中心</p>
+<p>新版CTeX套装即将发布，敬请期待！新版CTeX套装将由Harry Chen和Liam Huang接手负责开发，预计发布时间在4月份之前。新版本配置更合理，对新手更友好。此外由于变动较大，新版CTeX套装无法从旧版本直接升级。因此不着急的用户，特别是新手用户，建议等候新版本。</p>
+<p>有用户反映，安装程序在某些情况下可能覆盖 path 环境变量，原因不明。请在安装前注意备份 path 环境变量。</p>
+<p>测试版本</p>
+<pre><code>CTeX 2.9.3
+    清华TUNA开源镜像：https://mirrors.tuna.tsinghua.edu.cn/ctex/unstable/
+    中国科大开源镜像：http://mirrors.ustc.edu.cn/ctex/unstable/
+</code></pre><p>稳定版本</p>
+<pre><code>CTeX 2.9.2.164
+    清华TUNA开源镜像：https://mirrors.tuna.tsinghua.edu.cn/ctex/legacy/2.9/
+    中国科大开源镜像：http://mirrors.ustc.edu.cn/ctex/legacy/2.9/
+    百度网盘：https://pan.baidu.com/s/1jHQVq2U
+    文件说明：
+        CTeX_2.9.2.164.exe (203M) 包含 Basic 版 MiKTeX，占用空间小，会根据需要的宏包自动升级。MD5:615C7E9EFC020F5CE81461726D7AC1BE
+        CTeX_2.9.2.164_Full.exe (1.31G) 包含完整版 MiKTeX。MD5:D9ED7D4A24861A9A432BB9B5EDD8D9D1
+        CTeX_2.9.2.164_Update.exe (24M) 支持从 v2.9.1.160 升级。MD5:23C5B41E9BDCE431FE5B29C75DBF1A34
+</code></pre>
+
+		
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-share" id="share">
+
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/LaTex/">LaTex</a>
+  </div>
+
+
+</footer>
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2017/02/27/Latex文档的基本结构及基本样式/" title="LaTex文档的基本结构及基本样式">
+  <strong>上一篇:</strong><br/>
+  <span>
+  LaTex文档的基本结构及基本样式</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2017/02/21/转各——个年龄段张如何爱孩子/"  title="转——各年龄段如何爱孩子">
+ <strong>下一篇:</strong><br/> 
+ <span>转——各年龄段如何爱孩子
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+	<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2123798"></script>
+</div>
+
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/GMAIL/" title="GMAIL">GMAIL<sup>1</sup></a></li>
+		
+			<li><a href="/tags/HEXO/" title="HEXO">HEXO<sup>1</sup></a></li>
+		
+			<li><a href="/tags/LaTex/" title="LaTex">LaTex<sup>2</sup></a></li>
+		
+			<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
+		
+			<li><a href="/tags/深度学习-GAN/" title="深度学习 GAN">深度学习 GAN<sup>1</sup></a></li>
+		
+			<li><a href="/tags/生活琐事/" title="生活琐事">生活琐事<sup>13</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 二卜二 <br/>
+			Be There or Be Square</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="pacman">pacman</a> © 2018
+		
+		<a href="http://memowish.com" target="_blank" title="二卜二">二卜二</a>
+		
+		</p>
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<span id="busuanzi_container_site_pv">
+      Total visits: <span id="busuanzi_value_site_pv"></span>
+</span>
+<span id="busuanzi_container_site_uv">
+    You are Visiter No.<span id="busuanzi_value_site_uv"></span>
+</span>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F77edef7e6931022edbd2322ec66456e1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+<script type="text/javascript">
+	(function($) { 
+		// When to show the scroll link
+		// higher number = scroll link appears further down the page   
+		var upperLimit = 300;
+		
+		// Our scroll link element
+		var scrollElem = $('#totop');
+	   
+		// Scroll to top speed
+		var scrollSpeed = 800;
+	   
+		// Show and hide the scroll to top link based on scroll position   
+		scrollElem.hide();
+		$(window).scroll(function () {            
+			var scrollTop = $(document).scrollTop();       
+			if ( scrollTop > upperLimit ) {
+				$(scrollElem).stop().fadeTo(300, 1); // fade back in           
+			}else{       
+				$(scrollElem).stop().fadeTo(300, 0); // fade out
+			}
+		});
+		// Scroll to top animation on click
+		$(scrollElem).click(function(){
+			$('html, body').animate({scrollTop:0}, scrollSpeed); return false;
+		});
+	})(jQuery);
+</script>
+
+
+
+  </body>
+</html>
+

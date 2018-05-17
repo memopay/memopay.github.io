@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>二卜二 WishMemo</title>
+  <subtitle>杂记：只想告诉你在这个世界上，什么才是我想说的</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://memowish.com/"/>
+  <updated>2018-05-17T08:30:31.444Z</updated>
+  <id>http://memowish.com/</id>
+  
+  <author>
+    <name>二卜二</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://memowish.com/2018/05/17/%E5%A4%A7%E5%9E%8B%E6%9C%BA%E5%BA%94%E7%94%A8/"/>
+    <id>http://memowish.com/2018/05/17/大型机应用/</id>
+    <published>2018-05-17T08:24:49.494Z</published>
+    <updated>2018-05-17T08:30:31.444Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="术与道系列之术篇："><a href="#术与道系列之术篇：" class="headerlink" title="术与道系列之术篇："></a>术与道系列之术篇：</h1><p>术篇人物介绍：</p>
+<p>大Boss：Big Wheel 技术总监，负责技术团队管理和核心产品的构架。</p>
+<p>老李：李外行，小Z的直属领导，辗转多级后向大B汇报。</p>
+<p>小曾：曾言，工作在一线的技术工程师，事多钱少牢骚大。</p>
+<h2 id="小曾去搞个大型机来玩玩！"><a href="#小曾去搞个大型机来玩玩！" class="headerlink" title="小曾去搞个大型机来玩玩！"></a>小曾去搞个大型机来玩玩！</h2><p>老李站在自己那间宽敞的无窗办公室门口冲着工位上的曾言吆喝了起来。</p>
+<p>小曾十脸懵逼的看着老李：“大型机？是个啥，纳尼，我不是在做梦吧，弄这干啥咧”，脑海中不禁浮现了这样的场景：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1946年2月14日，在美国宾夕法尼亚大学展示了人类历史上第一台现代电子计算机“埃尼阿克”(ENIAC)。</div><div class="line">这个庞然大物占地面积达170平方米，重达30多吨。</div></pre></td></tr></table></figure>
+<p><img src="D:\任务规划\公众号撰写\图片\第一台计算机.jpg" alt="第一台计算机"></p>
+<p>抑或又是这样的场景:</p>
+<p><img src="http://p8uu8ppq2.bkt.clouddn.com/chinamainframe.jpg" alt="" title="中国第一台大型机银河"></p>
+<p>或者又是这样的：</p>
+<p>​      老李重重的点了点头：”上面领导已经发话了，公司技术支撑要高端大气上档次。经过大Boss带队半年的考察调研，决定引进大型机系统作为业务生产平台，机房已经按需求腾挪好了，后面你负责跟IBM部署团队对接。小曾，这可是提升你个人能力的好机会，一定要珍惜！”说完，捧着泡满枸杞的咖啡伴侣大玻璃杯踱回了办公室。</p>
+<h3 id="大型机的前世今生"><a href="#大型机的前世今生" class="headerlink" title="大型机的前世今生"></a>大型机的前世今生</h3><p>​     小曾虽然没见过猪跑，可好歹还是吃过猪肉的。应对上头甩锅的莫名任务也不是十次八次了，拉开架势摆出了起手式：百度大法（当然谷歌大法更好，不能同意更多）。百度百科曰：“大型机，或者称大型主机，英文名mainframe。大型机使用专用的处理器指令集、操作系统和应用软件。大型机一词，最初是指装在非常大的带框铁盒子里的大型计算机系统，以用来同小一些的迷你机和微型机有所区别。大多数时候它却是指system/360 开始的一系列的IBM计算机。这个词也可以用来指由其他厂商相应系统。”</p>
+<p>作为大型机的代名词祖师爷，蓝色巨人IBM早在2005年就把PC业务打包给联想退出了PC制造领域，摆脱了低附加值的pc厂商角色，后续连带服务器系列也一并脱手转给联想从大部分硬件生产抽身而去。但是，居然似乎好像蓝色巨人看来将大型机业务永久保留下去。虽然根据美国的红旗条款，大型机属于禁售中国的技术，但也可以卖给欧洲啥的盟国嘛。居然在IBM转型云计算云平台业务的今天，仍然保留且持续对大型机业务的投资。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;术与道系列之术篇：&quot;&gt;&lt;a href=&quot;#术与道系列之术篇：&quot; class=&quot;headerlink&quot; title=&quot;术与道系列之术篇：&quot;&gt;&lt;/a&gt;术与道系列之术篇：&lt;/h1&gt;&lt;p&gt;术篇人物介绍：&lt;/p&gt;
+&lt;p&gt;大Boss：Big Wheel 技术总监，负责技术团队
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>感觉智商不够用</title>
+    <link href="http://memowish.com/2017/05/21/%E6%84%9F%E8%A7%89%E6%99%BA%E5%95%86%E4%B8%8D%E5%A4%9F%E7%94%A8/"/>
+    <id>http://memowish.com/2017/05/21/感觉智商不够用/</id>
+    <published>2017-05-21T08:10:19.000Z</published>
+    <updated>2017-05-21T08:37:14.313Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="许久没更新了"><a href="#许久没更新了" class="headerlink" title="许久没更新了"></a>许久没更新了</h1><p>各种状态感觉都很差  </p>
+<p>前一段在京几日游非常开心</p>
+<p>但一投入学习  就感觉智商不够用的</p>
+<p>很多算法都反复看了几遍 还是没掌握要领</p>
+<p>感觉很差   </p>
+<p>加油  </p>
+<p>时间利用率很低  效率很低  </p>
+<p>加油  不能再这样了 </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;许久没更新了&quot;&gt;&lt;a href=&quot;#许久没更新了&quot; class=&quot;headerlink&quot; title=&quot;许久没更新了&quot;&gt;&lt;/a&gt;许久没更新了&lt;/h1&gt;&lt;p&gt;各种状态感觉都很差  &lt;/p&gt;
+&lt;p&gt;前一段在京几日游非常开心&lt;/p&gt;
+&lt;p&gt;但一投入学习  就感觉智商不够
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>马克飞象编辑模版</title>
+    <link href="http://memowish.com/2017/04/27/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1%E7%BC%96%E8%BE%91%E6%A8%A1%E7%89%88/"/>
+    <id>http://memowish.com/2017/04/27/马克飞象编辑模版/</id>
+    <published>2017-04-27T01:56:33.000Z</published>
+    <updated>2017-04-27T02:00:00.341Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎使用马克飞象"><a href="#欢迎使用马克飞象" class="headerlink" title="欢迎使用马克飞象"></a>欢迎使用马克飞象</h1><p>@(示例笔记本)[马克飞象|帮助|Markdown]</p>
+<p><strong>马克飞象</strong>是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：</p>
+<ul>
+<li><strong>功能丰富</strong> ：支持高亮代码块、<em>LaTeX</em> 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；</li>
+<li><strong>得心应手</strong> ：简洁高效的编辑器，提供<a href="http://maxiang.info/client_zh" target="_blank" rel="external">桌面客户端</a>以及<a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop" target="_blank" rel="external">离线Chrome App</a>，支持移动端 Web；</li>
+<li><strong>深度整合</strong> ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。</li>
+</ul>
+<hr>
+<p>[TOC]</p>
+<h2 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h2><blockquote>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">维基百科</a></p>
+</blockquote>
+<p>正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a href="http://www.example.com" target="_blank" rel="external">链接</a>或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按<code>Ctrl + /</code>查看帮助。</p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@requires_authorization</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></div><div class="line">    <span class="string">'''A docstring'''</span></div><div class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></div><div class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></div><div class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></div><div class="line"><span class="meta">... </span>prompt'''</div></pre></td></tr></table></figure>
+<h3 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h3><p>可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：</p>
+<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">1600 USD</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">12 USD</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">1 USD</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start</div><div class="line">e=&gt;end</div><div class="line">op=&gt;operation: My Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line"></div><div class="line">st-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;op</div></pre></td></tr></table></figure>
+<p>以及时序图:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Alice-&gt;Bob: Hello Bob, how are you?</div><div class="line">Note right of Bob: Bob thinks</div><div class="line">Bob--&gt;Alice: I am good thanks!</div></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>提示：</strong>想了解更多，请查看<strong>流程图</strong><a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="external">语法</a>以及<strong>时序图</strong><a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="external">语法</a>。</p>
+</blockquote>
+<h3 id="复选框"><a href="#复选框" class="headerlink" title="复选框"></a>复选框</h3><p>使用 <code>- [ ]</code> 和 <code>- [x]</code> 语法可以创建复选框，实现 todo-list 等功能。例如：</p>
+<ul>
+<li>[x] 已完成事项</li>
+<li>[ ] 待办事项1</li>
+<li>[ ] 待办事项2</li>
+</ul>
+<blockquote>
+<p><strong>注意：</strong>目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在<strong>马克飞象</strong>中修改 Markdown 原文才可生效。下个版本将会全面支持。</p>
+</blockquote>
+<h2 id="印象笔记相关"><a href="#印象笔记相关" class="headerlink" title="印象笔记相关"></a>印象笔记相关</h2><h3 id="笔记本和标签"><a href="#笔记本和标签" class="headerlink" title="笔记本和标签"></a>笔记本和标签</h3><p><strong>马克飞象</strong>增加了<code>@(笔记本)[标签A|标签B]</code>语法, 以选择笔记本和添加标签。 <strong>绑定账号后</strong>， 输入<code>(</code>自动会出现笔记本列表，请从中选择。</p>
+<h3 id="笔记标题"><a href="#笔记标题" class="headerlink" title="笔记标题"></a>笔记标题</h3><p><strong>马克飞象</strong>会自动使用文档内出现的第一个标题作为笔记标题。例如本文，就是第一行的 <code>欢迎使用马克飞象</code>。</p>
+<h3 id="快捷编辑"><a href="#快捷编辑" class="headerlink" title="快捷编辑"></a>快捷编辑</h3><p>保存在印象笔记中的笔记，右上角会有一个红色的编辑按钮，点击后会回到<strong>马克飞象</strong>中打开并编辑该笔记。</p>
+<blockquote>
+<p><strong>注意：</strong>目前用户在印象笔记中单方面做的任何修改，马克飞象是无法自动感知和更新的。所以请务必回到马克飞象编辑。</p>
+</blockquote>
+<h3 id="数据同步"><a href="#数据同步" class="headerlink" title="数据同步"></a>数据同步</h3><p><strong>马克飞象</strong>通过<strong>将Markdown原文以隐藏内容保存在笔记中</strong>的精妙设计，实现了对Markdown的存储和再次编辑。既解决了其他产品只是单向导出HTML的单薄，又规避了服务端存储Markdown带来的隐私安全问题。这样，服务端仅作为对印象笔记 API调用和数据转换之用。</p>
+<blockquote>
+<p><strong>隐私声明：用户所有的笔记数据，均保存在印象笔记中。马克飞象不存储用户的任何笔记数据。</strong></p>
+</blockquote>
+<h3 id="离线存储"><a href="#离线存储" class="headerlink" title="离线存储"></a>离线存储</h3><p><strong>马克飞象</strong>使用浏览器离线存储将内容实时保存在本地，不必担心网络断掉或浏览器崩溃。为了节省空间和避免冲突，已同步至印象笔记并且不再修改的笔记将删除部分本地缓存，不过依然可以随时通过<code>文档管理</code>打开。</p>
+<blockquote>
+<p><strong>注意：</strong>虽然浏览器存储大部分时候都比较可靠，但印象笔记作为专业云存储，更值得信赖。以防万一，<strong>请务必经常及时同步到印象笔记</strong>。</p>
+</blockquote>
+<h2 id="编辑器相关"><a href="#编辑器相关" class="headerlink" title="编辑器相关"></a>编辑器相关</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>右侧系统菜单（快捷键<code>Ctrl + M</code>）的<code>设置</code>中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。</p>
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><p>帮助    <code>Ctrl + /</code><br>同步文档    <code>Ctrl + S</code><br>创建文档    <code>Ctrl + Alt + N</code><br>最大化编辑器    <code>Ctrl + Enter</code><br>预览文档 <code>Ctrl + Alt + Enter</code><br>文档管理    <code>Ctrl + O</code><br>系统菜单    <code>Ctrl + M</code></p>
+<p>加粗    <code>Ctrl + B</code><br>插入图片    <code>Ctrl + G</code><br>插入链接    <code>Ctrl + L</code><br>提升标题    <code>Ctrl + H</code></p>
+<h2 id="关于收费"><a href="#关于收费" class="headerlink" title="关于收费"></a>关于收费</h2><p><strong>马克飞象</strong></p>
+<h2 id="反馈与建议"><a href="#反馈与建议" class="headerlink" title="反馈与建议"></a>反馈与建议</h2><ul>
+<li>微博：<a href="http://weibo.com/u/2788354117" target="_blank" rel="external">@马克飞象</a>，<a href="http://weibo.com/ggock" title="开发者个人账号" target="_blank" rel="external">@GGock</a></li>
+<li>邮箱：<a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#58;&#104;&#x75;&#x73;&#x74;&#x67;&#x6f;&#99;&#x6b;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#104;&#x75;&#x73;&#x74;&#x67;&#x6f;&#99;&#x6b;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></li>
+</ul>
+<hr>
+<p>感谢阅读这份帮助文档开启全新的记录与分享体验吧。</p>
+<p>[^demo]: 这是一个示例脚注。请查阅 <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes" target="_blank" rel="external">MultiMarkdown 文档</a> 关于脚注的说明。 <strong>限制：</strong> 印象笔记的笔记内容使用 <a href="https://dev.yinxiang.com/doc/articles/enml.php" target="_blank" rel="external">ENML</a> 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致<code>脚注</code>和<code>TOC</code>无法正常点击。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;欢迎使用马克飞象&quot;&gt;&lt;a href=&quot;#欢迎使用马克飞象&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用马克飞象&quot;&gt;&lt;/a&gt;欢迎使用马克飞象&lt;/h1&gt;&lt;p&gt;@(示例笔记本)[马克飞象|帮助|Markdown]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://memowish.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>香农有话说</title>
+    <link href="http://memowish.com/2017/04/24/%E9%A6%99%E5%86%9C%E6%9C%89%E8%AF%9D%E8%AF%B4/"/>
+    <id>http://memowish.com/2017/04/24/香农有话说/</id>
+    <published>2017-04-24T07:44:34.000Z</published>
+    <updated>2017-04-24T07:50:39.178Z</updated>
+    
+    <content type="html"><![CDATA[<p>#香农有话说<br><em>Robert G. Gallager 朗讯贝尔实验室1998</em><br>今天看到了一篇很好的文章，英文的；决定认真读一下，把它翻译过来（现在流行翻译英文文章发表在自己的Blog上）<br><em>译文如下：</em></p>
+<p>我们都（直接或间接）从克劳德香农了解到的信息理论。<br>值得一提的问题是，如何选择研究：</p>
+<ul>
+<li>    在今天来看香农的研究风格是否格格不入？</li>
+<li>    如果香农今天开始他的职业生涯，他会选择在一所大的大学里获得一个职位，还是在一个一流的研究实验室找到一份好工作？</li>
+<li>    支持这种类型的研究一直是脆弱的。</li>
+<li>    在1960，许多高层告诉我信息理论已经过了顶峰，我应该开始像真空管这样的新兴领域。</li>
+<li>    1970年代，研究者们认为信息论已经死了。</li>
+</ul>
+<p>从香农身上学到的：</p>
+<ul>
+<li>    找到根源（做源头研究-而不是由他人解释）。</li>
+<li>    在选择问题的好奇心（避免狂热，避免过度阅读期刊）。</li>
+<li>    把问题抽象为本质特征。</li>
+</ul>
+<p><img src="\img\ShannonCommModel.jpg" style="display:block;margin:auto"></p>
+<p>各研究组织认为他们应该选择重要的问题。美国政府越来越多地将研究与特定的国家目标联系起来。这导致商业/学术/军事联合企业等也朝着特定的目标寻找研究。商业/学术/军事这些财团主导了研究方向。他们对香农风格的研究一无所知。他们要关注投资收益。过去，这种类型的研究被称为“基本的”，它是由一系列的基础研究模型驱动，先应用研究，然后测试，最后产品。在当今时代这是毫无意义的，因为产品周期太小。尽管没有意义，但由于经理以前接受这套理论模型也仍基于此驱动当前的基础研究。</p>
+<p>而克劳德香农身上有着更多的好奇心和抽象能力。<br>这是香农额外告诉我们的事情：</p>
+<ul>
+<li>    对真实事物好奇。对事物的概念困惑感到好奇。</li>
+<li>    抽象一个问题后，看看最简单的非平凡版本。</li>
+<li>    知道所有定理或所有工程实践是没有必要的（甚至可能是有害的）。<br>香农信息理论发展的概念化传播如下：</li>
+<li>    数学模型与理论</li>
+<li>    结构原理</li>
+<li>    简单实例集合</li>
+<li>    成功实例集合</li>
+<li>    回到初心<br>今天，所有这些形式的通信理论和技术的基础已跃然纸上。总结这些经验，香农的好奇心驱使他由最简单的连贯的方式来看待事情。在他的论文中我们都会觉得：“我可以做到这一点（如果我想问正确的问题）”今天的学生做出这种研究的可能性有多大？不幸的是，今天的教育体系与这种方法截然相反。有太多的项目，太多的事实，太多的问题让好奇心消失。我们非常擅长形式化教育学生解决标准类型的问题（其实计算机可以更好地解决这些问题）。</li>
+</ul>
+<p>当学生进入研究生院时，他们开始做研究。在通信领域，我们一直在讨论的是香农风格的研究。这种研究风格多年来一直存在于通讯领域。它的特点是一个简单的数学模型和实际系统之间的相互作用。还有一些其他的模型，特别是在通信领域：</p>
+<ul>
+<li>    水晶球模型：未来技术的前期工作。这给商人和管理人员留下了深刻的印象，但没有一个强大的记录，除了加上概念研究。香农模型的研究是自下而上的，构建概念结构的应用程序需要在广泛的范围内。水晶球模型是“自上而下”，是唯一有效的短期研究后的概念结构的开发。</li>
+<li>    系统模型：给定一个愿景，建立一个大系统；看它是否变动。这种模式已经在美国很受欢迎。这种模式在大学是主导模式。这是计算机系统的主导模式</li>
+<li>    复杂模型：建立一个类似的模型，看看是否设想一致。许多牛人认为这是理解复杂性的方法。</li>
+<li>    跨学科模式：通过委员会建立一个同质系统；</li>
+<li>    大物理模型：建立均匀昂贵的仪器和关键实验。</li>
+<li>    爱迪生模型：发明有用的东西。</li>
+<li>    学术模式：在细分的领域不停钻研。</li>
+<li>    性能分析模型：这更多地集中在分析和辅助设计上。<br>这四种后模型都是重要的，都有它们的位置，但不能互换。但以上的模型似乎没有满足当前的技术需求。香农模型不是设计大型新系统的理想准备。该系统模型是很好的团队建设系统的工作，但可能不好，也许问题使我们的系统变得过于复杂，或者我们变得太不耐烦了。强大的系统工具使得复杂系统的工作变得容易，但更难理解它们。<br>概念复杂性难以量化。一个简单的组件的系统可以很难理解。一个并行处理机的处理单元可以是简单的一个具有四个处理单元。对一个人来说复杂的东西对另一个人来说是容易的（因为背景和思维方式）。减少复杂性是信息时代的主要问题。<br>香农研究的真正遗产，在他产生所有整洁的信息论结果之外，；如果我们花时间去理解，系统可以被理解。尽管这需要天才，但如果我们能将让学生和年轻的研究人员变成这些人才。</li>
+</ul>
+<p>原文：Lessons Learned from Claude Shannon<br>Robert G. Gallager<br>May 18, 1998 (Shannon Day)<br>Lucent Bell Labs<br><a href="http://www.ifp.illinois.edu/~tieliu/Shannon.html" target="_blank" rel="external">http://www.ifp.illinois.edu/~tieliu/Shannon.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#香农有话说&lt;br&gt;&lt;em&gt;Robert G. Gallager 朗讯贝尔实验室1998&lt;/em&gt;&lt;br&gt;今天看到了一篇很好的文章，英文的；决定认真读一下，把它翻译过来（现在流行翻译英文文章发表在自己的Blog上）&lt;br&gt;&lt;em&gt;译文如下：&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我们都（
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GAN网络学习读后感</title>
+    <link href="http://memowish.com/2017/04/23/GAN%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A0%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+    <id>http://memowish.com/2017/04/23/GAN网络学习读后感/</id>
+    <published>2017-04-23T09:04:43.000Z</published>
+    <updated>2017-04-23T09:11:24.805Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Generative-Adversarial-Nets"><a href="#Generative-Adversarial-Nets" class="headerlink" title="Generative Adversarial Nets"></a>Generative Adversarial Nets</h1><h2 id="2014年具有划时代意义的经典模型框架-GoodFellow的大作"><a href="#2014年具有划时代意义的经典模型框架-GoodFellow的大作" class="headerlink" title="2014年具有划时代意义的经典模型框架 GoodFellow的大作"></a>2014年具有划时代意义的经典模型框架 GoodFellow的大作</h2><p>文章很简单，只有九页纸的长度，并且里面公式推导更是简洁到极致</p>
+<p>但作为开创性的一项工作，follow者众多，几乎是一场革命一股热潮<br>产生了形形色色的GAN推广和扩展：3D-GAN、AdaGAN、AffGAN、AMGAN、AnoGAN、ArtGAN、BayesianGAN、BS-GAN、CGAN、CCGAN、CatGAN、CoGAN、C-RNN-GAN、CAVE-GAN、DCGAN、DualGAN、EBGAN、f-GAN、GoGAN、iGAN、IcGAN、LS-GAN、MGAN、MIX+GAN、RenderGAN、RTT-GAN、SGAN、SEGAN、SketchGAN、SRGAN、StackGAN、TGAN、TP-GAN、Triple-GAN、VGAN、ViGAN、WGAN ……<br>可以说是不计其数，我在看这篇文章时就在感慨是否有人有经历把这么多文章理解评判一下。（引自A list of papers and other resources on General Adversarial (Neural) Networks<br><a href="https://github.com/nightrome/really-awesome-gan）" target="_blank" rel="external">https://github.com/nightrome/really-awesome-gan）</a></p>
+<p>结果就发现了有人已经努力在做这件事情了，虽然只是对部分GAN变体进行了阅读理解，但工作量也不小了。<br>参见文献：王坤峰,苟超,段艳杰,林懿伦,郑心湖,王飞跃. 生成式对抗网络GAN的研究进展与展望[J]. 自动化学报,2017,(03):321-332.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Generative-Adversarial-Nets&quot;&gt;&lt;a href=&quot;#Generative-Adversarial-Nets&quot; class=&quot;headerlink&quot; title=&quot;Generative Adversarial Nets&quot;&gt;&lt;/a&gt;Gener
+    
+    </summary>
+    
+    
+      <category term="深度学习 GAN" scheme="http://memowish.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-GAN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习之路感受</title>
+    <link href="http://memowish.com/2017/04/23/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF%E6%84%9F%E5%8F%97/"/>
+    <id>http://memowish.com/2017/04/23/学习之路感受/</id>
+    <published>2017-04-23T08:57:47.000Z</published>
+    <updated>2017-04-23T09:04:19.317Z</updated>
+    
+    <content type="html"><![CDATA[<p>越来越深深的体会到 人是有惰性的  </p>
+<p>在向前的每一步中都是在克服自身的惰性再努力</p>
+<p>按照老罗的讲法：牛B的人无非是换个被虐的方式过一生而已</p>
+<p>在这一段充分自己支配时间和空间的过程中  我发现自己浪费了无数时光</p>
+<p>有时是在网上无谓的购物 筛选物品  有时是无谓的发呆</p>
+<p>更有时 是注意力不集中，做的事情跟没做一样  </p>
+<p>深深感到了自身的惰性  设定的很多目标都未能完成  </p>
+<p>现在只能把目光放low一些  设一些更细小的目标  一步一步克服自己吧</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;越来越深深的体会到 人是有惰性的  &lt;/p&gt;
+&lt;p&gt;在向前的每一步中都是在克服自身的惰性再努力&lt;/p&gt;
+&lt;p&gt;按照老罗的讲法：牛B的人无非是换个被虐的方式过一生而已&lt;/p&gt;
+&lt;p&gt;在这一段充分自己支配时间和空间的过程中  我发现自己浪费了无数时光&lt;/p&gt;
+&lt;p&gt;有时是在网上
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生活感悟</title>
+    <link href="http://memowish.com/2017/04/13/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    <id>http://memowish.com/2017/04/13/生活感悟/</id>
+    <published>2017-04-13T12:06:15.000Z</published>
+    <updated>2017-04-23T08:58:17.718Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>时间浪费了太多以至于感觉这么长时间没有什么收获</p>
+<p>是要做出改变了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新的开始&quot;&gt;&lt;a href=&quot;#新的开始&quot; class=&quot;headerlink&quot; title=&quot;新的开始&quot;&gt;&lt;/a&gt;新的开始&lt;/h2&gt;&lt;p&gt;时间浪费了太多以至于感觉这么长时间没有什么收获&lt;/p&gt;
+&lt;p&gt;是要做出改变了&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有朋自厦门来</title>
+    <link href="http://memowish.com/2017/03/19/%E6%9C%89%E6%9C%8B%E8%87%AA%E5%8E%A6%E9%97%A8%E6%9D%A5/"/>
+    <id>http://memowish.com/2017/03/19/有朋自厦门来/</id>
+    <published>2017-03-19T11:10:38.000Z</published>
+    <updated>2017-03-19T11:17:02.008Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="有朋友自厦门来"><a href="#有朋友自厦门来" class="headerlink" title="有朋友自厦门来"></a>有朋友自厦门来</h1><h2 id="说起来也是很久未见啦，本想着张罗着跟老朋友一起聚聚"><a href="#说起来也是很久未见啦，本想着张罗着跟老朋友一起聚聚" class="headerlink" title="说起来也是很久未见啦，本想着张罗着跟老朋友一起聚聚"></a>说起来也是很久未见啦，本想着张罗着跟老朋友一起聚聚</h2><h2 id="结果另外两个因各种原因未能现身，出差的出差-历劫的历劫"><a href="#结果另外两个因各种原因未能现身，出差的出差-历劫的历劫" class="headerlink" title="结果另外两个因各种原因未能现身，出差的出差 历劫的历劫"></a>结果另外两个因各种原因未能现身，出差的出差 历劫的历劫</h2><h2 id="在北京小有名气的素斋-贤二家-貌似跟龙泉寺有点瓜葛"><a href="#在北京小有名气的素斋-贤二家-貌似跟龙泉寺有点瓜葛" class="headerlink" title="在北京小有名气的素斋  贤二家  貌似跟龙泉寺有点瓜葛"></a>在北京小有名气的素斋  贤二家  貌似跟龙泉寺有点瓜葛</h2><h2 id="吃素斋蛮好的-戒烟戒酒-没有荤腥"><a href="#吃素斋蛮好的-戒烟戒酒-没有荤腥" class="headerlink" title="吃素斋蛮好的  戒烟戒酒  没有荤腥"></a>吃素斋蛮好的  戒烟戒酒  没有荤腥</h2><h2 id="本来还想着吃完饭在寻觅个地方弄点烧烤啤酒-弥补一下"><a href="#本来还想着吃完饭在寻觅个地方弄点烧烤啤酒-弥补一下" class="headerlink" title="本来还想着吃完饭在寻觅个地方弄点烧烤啤酒 弥补一下"></a>本来还想着吃完饭在寻觅个地方弄点烧烤啤酒 弥补一下</h2><h2 id="但两人就在贤二家慢慢悠悠吃吃聊聊-也蛮好"><a href="#但两人就在贤二家慢慢悠悠吃吃聊聊-也蛮好" class="headerlink" title="但两人就在贤二家慢慢悠悠吃吃聊聊  也蛮好"></a>但两人就在贤二家慢慢悠悠吃吃聊聊  也蛮好</h2><h2 id="朋友在厦门发展的不错-成家立业定居一样不落下-运气不错"><a href="#朋友在厦门发展的不错-成家立业定居一样不落下-运气不错" class="headerlink" title="朋友在厦门发展的不错  成家立业定居一样不落下  运气不错"></a>朋友在厦门发展的不错  成家立业定居一样不落下  运气不错</h2><h2 id="觉得感触挺深-。。。。。。"><a href="#觉得感触挺深-。。。。。。" class="headerlink" title="觉得感触挺深 。。。。。。"></a>觉得感触挺深 。。。。。。</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;有朋友自厦门来&quot;&gt;&lt;a href=&quot;#有朋友自厦门来&quot; class=&quot;headerlink&quot; title=&quot;有朋友自厦门来&quot;&gt;&lt;/a&gt;有朋友自厦门来&lt;/h1&gt;&lt;h2 id=&quot;说起来也是很久未见啦，本想着张罗着跟老朋友一起聚聚&quot;&gt;&lt;a href=&quot;#说起来也是很久未
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有朋自远方来</title>
+    <link href="http://memowish.com/2017/03/19/%E6%9C%89%E6%9C%8B%E8%87%AA%E8%BF%9C%E6%96%B9%E6%9D%A5/"/>
+    <id>http://memowish.com/2017/03/19/有朋自远方来/</id>
+    <published>2017-03-19T11:10:31.000Z</published>
+    <updated>2017-03-19T11:28:46.129Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="恰逢周末-携老友一起逛北京胡同"><a href="#恰逢周末-携老友一起逛北京胡同" class="headerlink" title="恰逢周末  携老友一起逛北京胡同"></a>恰逢周末  携老友一起逛北京胡同</h1><h2 id="胡同游的开端从一碗老北京炸酱面开启：-海碗居老北京炸酱面"><a href="#胡同游的开端从一碗老北京炸酱面开启：-海碗居老北京炸酱面" class="headerlink" title="胡同游的开端从一碗老北京炸酱面开启： 海碗居老北京炸酱面"></a>胡同游的开端从一碗老北京炸酱面开启： 海碗居老北京炸酱面</h2><h2 id="从南锣鼓巷地铁站出来-沿南锣鼓巷熙攘的人群往里"><a href="#从南锣鼓巷地铁站出来-沿南锣鼓巷熙攘的人群往里" class="headerlink" title="从南锣鼓巷地铁站出来  沿南锣鼓巷熙攘的人群往里"></a>从南锣鼓巷地铁站出来  沿南锣鼓巷熙攘的人群往里</h2><h2 id="随便寻觅了一个宽敞的胡同走进去-居然是有名的帽儿胡同"><a href="#随便寻觅了一个宽敞的胡同走进去-居然是有名的帽儿胡同" class="headerlink" title="随便寻觅了一个宽敞的胡同走进去 居然是有名的帽儿胡同"></a>随便寻觅了一个宽敞的胡同走进去 居然是有名的帽儿胡同</h2><h2 id="末世皇后-——-婉容就住在这个胡同里-里面很多有名的老宅-但居然都是私宅-不开放"><a href="#末世皇后-——-婉容就住在这个胡同里-里面很多有名的老宅-但居然都是私宅-不开放" class="headerlink" title="末世皇后 —— 婉容就住在这个胡同里  里面很多有名的老宅  但居然都是私宅  不开放"></a>末世皇后 —— 婉容就住在这个胡同里  里面很多有名的老宅  但居然都是私宅  不开放</h2><h2 id="从胡同一直走到什刹海边-然后又沿着湖边七拐八拐-居然来到了南海"><a href="#从胡同一直走到什刹海边-然后又沿着湖边七拐八拐-居然来到了南海" class="headerlink" title="从胡同一直走到什刹海边 然后又沿着湖边七拐八拐  居然来到了南海"></a>从胡同一直走到什刹海边 然后又沿着湖边七拐八拐  居然来到了南海</h2><h2 id="原来北京不仅有后海-还有前海-不仅有北海还有南海-还有中海-那么自然中海南海中间叫中南海"><a href="#原来北京不仅有后海-还有前海-不仅有北海还有南海-还有中海-那么自然中海南海中间叫中南海" class="headerlink" title="原来北京不仅有后海  还有前海  不仅有北海还有南海  还有中海  那么自然中海南海中间叫中南海"></a>原来北京不仅有后海  还有前海  不仅有北海还有南海  还有中海  那么自然中海南海中间叫中南海</h2><h2 id="发现这些什么北海-南海-胡同深藏不露着很多私家大宅-不知哪家达官贵人住于此-还有敞篷宾利穿梭于间"><a href="#发现这些什么北海-南海-胡同深藏不露着很多私家大宅-不知哪家达官贵人住于此-还有敞篷宾利穿梭于间" class="headerlink" title="发现这些什么北海 南海 胡同深藏不露着很多私家大宅  不知哪家达官贵人住于此 还有敞篷宾利穿梭于间"></a>发现这些什么北海 南海 胡同深藏不露着很多私家大宅  不知哪家达官贵人住于此 还有敞篷宾利穿梭于间</h2><h2 id="来到了北海公园-原来北京最古老的是这里-从金朝定都就以北海为心"><a href="#来到了北海公园-原来北京最古老的是这里-从金朝定都就以北海为心" class="headerlink" title="来到了北海公园   原来北京最古老的是这里  从金朝定都就以北海为心"></a>来到了北海公园   原来北京最古老的是这里  从金朝定都就以北海为心</h2><h2 id="在北海公园里绕了一大圈-走到白塔下-赏了赏花海和春光"><a href="#在北海公园里绕了一大圈-走到白塔下-赏了赏花海和春光" class="headerlink" title="在北海公园里绕了一大圈 走到白塔下  赏了赏花海和春光"></a>在北海公园里绕了一大圈 走到白塔下  赏了赏花海和春光</h2><h2 id="晚上来吃了一顿淮扬菜-慰藉了一下在南京读书后去厦门发展的老友"><a href="#晚上来吃了一顿淮扬菜-慰藉了一下在南京读书后去厦门发展的老友" class="headerlink" title="晚上来吃了一顿淮扬菜   慰藉了一下在南京读书后去厦门发展的老友"></a>晚上来吃了一顿淮扬菜   慰藉了一下在南京读书后去厦门发展的老友</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;恰逢周末-携老友一起逛北京胡同&quot;&gt;&lt;a href=&quot;#恰逢周末-携老友一起逛北京胡同&quot; class=&quot;headerlink&quot; title=&quot;恰逢周末  携老友一起逛北京胡同&quot;&gt;&lt;/a&gt;恰逢周末  携老友一起逛北京胡同&lt;/h1&gt;&lt;h2 id=&quot;胡同游的开端从一碗老北
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设置GMAIL邮箱</title>
+    <link href="http://memowish.com/2017/03/07/%E8%AE%BE%E7%BD%AEGMAIL%E9%82%AE%E7%AE%B1/"/>
+    <id>http://memowish.com/2017/03/07/设置GMAIL邮箱/</id>
+    <published>2017-03-07T01:23:30.000Z</published>
+    <updated>2017-03-07T01:30:34.412Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于需要，设置注册了一个新的GMAIL邮箱</p>
+<p>先通过Chrome浏览器的上网助手实现了翻墙登录谷歌页面</p>
+<p>但申请邮箱时花费了很长时间  首先是找出合适名字的邮箱前缀  </p>
+<p>基本好用的都被占用了  然后 填写信息 到下一步验证手机  短信或语音时</p>
+<p>无论怎么尝试都发现没法验证该手机</p>
+<p>网上搜了搜无数人遇到同样的情况  也有很顺利注册成功的  </p>
+<p>然后用自带的edge浏览器  将<a href="https://accounts.google.com浏览地址拷贝粘帖过去" target="_blank" rel="external">https://accounts.google.com浏览地址拷贝粘帖过去</a>  注意 直接在浏览器gmail地址打不开</p>
+<p>居然在edge下也能打开gmail页面  居然顺利注册成功了  连手机验证都不要   我也震惊了</p>
+<p>这是什么情况 ，chrome下注册必须要验证手机；而Edge浏览器可以直接注册使用  神奇呀  忍不住记录一下  </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由于需要，设置注册了一个新的GMAIL邮箱&lt;/p&gt;
+&lt;p&gt;先通过Chrome浏览器的上网助手实现了翻墙登录谷歌页面&lt;/p&gt;
+&lt;p&gt;但申请邮箱时花费了很长时间  首先是找出合适名字的邮箱前缀  &lt;/p&gt;
+&lt;p&gt;基本好用的都被占用了  然后 填写信息 到下一步验证手机  短信或
+    
+    </summary>
+    
+    
+      <category term="GMAIL" scheme="http://memowish.com/tags/GMAIL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>承德避暑山庄</title>
+    <link href="http://memowish.com/2017/03/06/%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84/"/>
+    <id>http://memowish.com/2017/03/06/承德避暑山庄/</id>
+    <published>2017-03-06T03:32:23.000Z</published>
+    <updated>2017-03-06T03:55:41.258Z</updated>
+    
+    <content type="html"><![CDATA[<p>计划的避暑山庄之行终于要出发了</p>
+<p>周五晚上打完乒乓球，水平太菜，打了打酱油</p>
+<p>3/3日 晚上00点北京站出发火车 3/4上午7点到达承德<br>3/4日 用一天时间逛山庄</p>
+<p>承德山庄<br>门票：旺季（4月1日-10月31日）145元<br>淡季（11月1日-次年3月31日）90元<br>开放时间<br>旺季（4月1日-10月31日）7:00-18:00<br>淡季（11月1日-次年3月31日）8:00-17:30</p>
+<p>承德避暑山庄位于河北省承德市。曾是中国清朝皇帝的夏宫。距离北京230公里。是由皇帝宫室、皇家园林和宏伟壮观的寺庙群所组成。避暑山庄位于承德市中心区以北，武烈河西岸一带狭长的谷地上，它始建于1703年，历经清朝三代皇帝：康熙、雍正、乾隆，耗时89年建成。<br>山庄分四大区域，南边是宫殿区和湖区，北边是山区和平原区，其中宫殿区和湖区是避暑山庄的精华所在。</p>
+<p>承德避暑山庄博物馆是中国清代宫廷历史博物馆，在位避暑山庄内，由避暑山庄正宫区、松鹤斋、万壑松风三组建筑组成。这里曾是清王朝康熙、乾隆、嘉庆三代帝后驻跸热河，处理军政，礼仪宴飨，政余读书，起居游乐的主要区域。</p>
+<p>入住： 长颈鹿国际青年旅舍    地址：碧峰门民俗文化街9号楼，炭火香烤羊腿对面</p>
+<p>避暑山庄真大，由于冬季防火，山区不开放，要到6/1才开放山区景点  据说山区占了山庄的80%的面积<br>也就是说剩下20%的面积我用了一天逛，走的快吐血了  仅走马观花绕了一圈<br>晚上累的倒头就睡，结果第二天早上计划的小布达拉宫之行就没成行，下午就返回北京了</p>
+<p>淡季真的是淡季，人真少，除了本地逛山庄遛弯的人  基本上没有什么游客<br>本地人办理年票只要50块全年   但要刷指纹入园  </p>
+<p>淡季真的是淡季，入住的青年旅舍只有我一个客人，早知道没必要定单人房，订个大通铺也是一个人住的</p>
+<p>淡季的感觉就是到哪儿逛景点，工作人员都比游客多  </p>
+<p>承德的清真食品真多  老三羊汤  味道不错量又足  </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;计划的避暑山庄之行终于要出发了&lt;/p&gt;
+&lt;p&gt;周五晚上打完乒乓球，水平太菜，打了打酱油&lt;/p&gt;
+&lt;p&gt;3/3日 晚上00点北京站出发火车 3/4上午7点到达承德&lt;br&gt;3/4日 用一天时间逛山庄&lt;/p&gt;
+&lt;p&gt;承德山庄&lt;br&gt;门票：旺季（4月1日-10月31日）145元&lt;b
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设置护眼保护色</title>
+    <link href="http://memowish.com/2017/02/27/%E8%AE%BE%E7%BD%AE%E6%8A%A4%E7%9C%BC%E4%BF%9D%E6%8A%A4%E8%89%B2/"/>
+    <id>http://memowish.com/2017/02/27/设置护眼保护色/</id>
+    <published>2017-02-27T08:11:26.000Z</published>
+    <updated>2017-03-21T12:51:03.381Z</updated>
+    
+    <content type="html"><![CDATA[<p>设置电脑眼睛保护色</p>
+<p>绿豆沙色能有效的减轻长时间用电脑的用眼疲劳！<br>色调：85，饱和度：123，亮度：205；<br>RGB颜色红：199，绿：237，蓝：204；<br>十六进制颜色：#C7EDCC或用#CCE8CF</p>
+<p>其他几种电脑窗口视力保护色：</p>
+<p>银河白    #FFFFFF    RGB(255, 255, 255)</p>
+<p>杏仁黄    #FAF9DE    RGB(250, 249, 222)</p>
+<p>秋叶褐    #FFF2E2    RGB(255, 242, 226)</p>
+<p>胭脂红    #FDE6E0    RGB(253, 230, 224)</p>
+<p>青草绿    #E3EDCD    RGB(227, 237, 205)</p>
+<p>海天蓝    #DCE2F1    RGB(220, 226, 241)</p>
+<p>葛巾紫    #E9EBFE    RGB(233, 235, 254)</p>
+<p>极光灰    #EAEAEF    RGB(234, 234, 239)</p>
+<p>方法/步骤</p>
+<pre><code>WinXP系统窗口颜色设置方法
+桌面-&gt;右键-&gt;属性-&gt;外观-&gt;高级－&gt;项目选择（窗口）、颜色1（L）（单击颜色框）-&gt;其它，将色调改为85，饱和度123，亮度205。
+
+Win Vista和Win7系统窗口颜色设置方法
+在电脑桌面空白处点击右键“个性化”按钮-&gt;在弹出的对话框单击“窗口颜色”-&gt;在弹出的新的对话框中单击“高级外观设置”-&gt;在弹出的窗口颜色和外观中，将项目选为“窗口”颜色选为其他，进入到颜色选择-在颜色中将色调调整为85；饱和度调整为125，亮度调整为205，点击添加到自定义颜色中-&gt;颜色被添加到自定义颜色中，点击确定。
+
+快捷设置方式
+对于windows系统，可以通过现有软件设置，启动QQ管家，打开管家页面右边的健康小助手，启用护眼配色即可。
+
+ubuntu系统保护色设置方法
+
+桌面右键-&gt;更改桌面背景-&gt;主题-&gt;自定义（对话框右下角）-&gt;颜色-&gt;输入框-&gt;点击输入框右边的背景-&gt;颜色名称（输入#CCE8CF）-&gt;
+
+确定。
+设置电脑眼睛保护色
+设置电脑眼睛保护色
+设置电脑眼睛保护色
+5
+
+注意事项
+
+平时上网时间不要过长，每隔1小时要起身活动一下，避免用眼疲劳，平时要多注意体育锻炼，可以再电脑旁放一盆仙人掌或者其他植物。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;设置电脑眼睛保护色&lt;/p&gt;
+&lt;p&gt;绿豆沙色能有效的减轻长时间用电脑的用眼疲劳！&lt;br&gt;色调：85，饱和度：123，亮度：205；&lt;br&gt;RGB颜色红：199，绿：237，蓝：204；&lt;br&gt;十六进制颜色：#C7EDCC或用#CCE8CF&lt;/p&gt;
+&lt;p&gt;其他几种电脑窗口视力保
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LaTex文档的基本结构及基本样式</title>
+    <link href="http://memowish.com/2017/02/27/Latex%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%A0%B7%E5%BC%8F/"/>
+    <id>http://memowish.com/2017/02/27/Latex文档的基本结构及基本样式/</id>
+    <published>2017-02-27T06:37:54.000Z</published>
+    <updated>2017-02-27T06:45:46.589Z</updated>
+    
+    <content type="html"><![CDATA[<p>Latex文档的基本结构及基本样式<br>首先建议大家如果真的有心学，最好是去书店里买本书仔细看看，因为细节知识是非常多的。我这里只能讲解一些概要，不可能面面俱到。<br> Latex文档的基本结构如下：</p>
+<p> 文档类型声明<br> 宏包包含区<br> 自定义命令区（全局设定区）<br> 标题区<br> 正文区——–正文<br>             |<br>    —–参考文献</p>
+<p> 将上述结构翻译成代码即为如下：<br> %文档类型声明<br> \documentclass[a4paper,11pt,onecolumn]{article}</p>
+<p> %宏包包含区<br> \usepackage{CJK}<br> %自定义命令区（全局设定区）<br> \renewcommand{\baselinestretch}{1.5} %定义行间距<br> %标题区<br> \title{  }<br> \author{ }</p>
+<p> %正文区<br> \begin{document}<br> ….<br> \end{document}<br> 上述即为Latex文档的基本结构了。大家可能还不十分懂这些命令到底起什么作用，但是根据各个英文单词的含意，应该能够猜测到一些意思了吧。同时，这也展示了Latex一个特点：每个命令都使用完整的很容易懂的英文单词，而不是缩写，所以很明了，学习起来不难。</p>
+<p> 下面我给出一个英文文档的基本例子。<br> \documentclass[a4paper,11pt]{article}<br> \begin{document}<br> Hello, world!<br> \end{document}<br> 就这样四行简短的代码，会得到图1的效果。<br> \documentclass[a4paper,11pt]{article} 用来说明你这篇文章用多大的纸，默认多大的字号，并且文档类型是什么。\documentclass 是命令，是每一篇文章开头必须写的。a4paper 指定现在用A4的纸；11pt 指定默认字体的大小；article 用来说明这篇文档是篇论文（当然计算机是不会认得你要写论文的，只不过它预先定义了一些格式，以article 称呼的这种格式适用于论文，所以就叫它为论文格式了）。<br> 字体大小那个选项一般不行去改动它，不写也行，系统默认为11pt。不写的话就为：\documentclass[a4paper]{article}。写论文一般用A4的纸，当然，与这个选项对应的其它选项还有b5paper 等，可根据实际需要来改变。<br> 而article 这个位置一定不能空。与之对应的参数有 book(书), report(报告), letter(信件) 等。<br>  然后是\begin{document}和\end{document}，这也是两个必须写的命令，它们是一对语句，不能只写一个而不写另一个，即必须匹配。而且在一篇文档中只能写一次这对语句。从这对语句中又可反映出Latex的一个特点：很多语句是成对出现的，而且命令名都是\begin{}和\ end{}的形式。<br> \begin{document}和\end{document}中间的那个 Hello, world! 就是文章的内容了。你在图1中看一下，是不是在左上角有个 Hello, world! :-)</p>
+<p> 好了，就这样一个文档就写好了。简单吧。<br> 但——一个严重的问题是：这个文档只能处理英文。只要打一个汉字上去，在编译时就会出错！怎么办？<br> 下面我就来详细讲一讲 Latex 是如何处理中文的。</p>
+<p> Knuth 在发明 TeX 的时候，根本没有考虑到还要处理中文字符（以及其它许多亚洲字符）——它发明 TeX 的目的就是为了排版它的巨著《计算机算法艺术》。尽管这样，Knuth 却采用了一种先进的设计思想，从底层留下了扩展接口，并将其全面公开。这样，当时他本人没有实现的一些功能，就可以通过宏包的形式加以扩展实现。这就是为什么到现在为止 30多年过去了，TeX 在底层还几乎没有改动（只发现两处小错误）。说到这里，确实不得不佩服Knuth，什么叫牛人，这就是。计算机科学家写出的软件与一般程序员的软件就是不同！</p>
+<p> Latex中处理中文，需要用一个叫做 CJK 的宏包（宏包就是预先定义了一些命令及格式的一个文档，学过 C 语言的同学都应该了解的）。<br>    CJK是由Werner Lemberg开发的支持中、日、韩、英文字的宏包。CJK的特点是不需要象CCT那样预处理，支持PDFLatex和Type1字体，因此得到越来越多中国TeXer的喜爱，逐渐成为中文LaTeX的主流。而我提供的那个包里面就已经含有了。（可以毫不夸张地说，几乎所有已经出现的宏包在那个软件包里面都有自己的位置）<br> 这个宏包通过一个字符映射表，来实现汉字的处理。讲下去就比较深了，这里暂且说到这么多。<br> 下面我就给出一个处理中文的基本样例。<br> \documentclass[a4paper]{article}<br> \usepackage{CJK}<br> \begin{document}<br> \begin{CJK<em>}{GBK}{song}<br> 你好，世界！<br> \end{CJK</em>}<br> \end{document}<br> 生成的效果图如图2 。<br> 下面细细讲解一下新增的语句的作用。<br> \usepackage{CJK}表示把CJK这个宏包包含进来。\usepackage{ }就是包含宏包的命令。<br> \ begin{CJK<em>}{GBK}{song}和\end{CJK</em>}是中文字符的定界语句。意思就是要想显示中文，就得用这两句把所有中文包含起来。当然，英文字符在这里面是不受影响的。\begin{CJK*}{GBK}{song}中的最后一项，就是指宋体的意思。（我的安装包说明里面有十三种字体对应的符号名字。在Latex中使用时就用那些符号名字。）当然，你可以把它改为 kai(楷书), hei(黑体), xihei(细黑), li(隶书) 等等。</p>
+<p> 比如我将song改为kai，那么将得到如图3的效果。<br> 看，用Latex写中文文档也不复杂吧。这个文档还太小，还体现不出Latex的优势，以后用熟了，写大文档了，就能深刻地体会到了。<br> 在这里，我要着重强调一下，Linux下的字符编码问题。<br> 现在的Linux基本上都通用UTF-8编码作为其默认编码，这是事实，我们最好不要去改变它，否则很多程序的字体会出理乱码。但Latex无法支持UTF-8编码（其实可以支持，但是好像要下一个宏包，在我提供的那个里面没有，我也没用过，不会用）。于是我们后退一步，绕过这个问题。在把文档写好后，只要保存时选定编码就行了。</p>
+<p> 具体这样来实现：<br> 对gvim来说，把文档写好后。在命令模式下，输入<br> set fileencoding=GB18030<br> 如果程序提示modifiable if off。那么，可以先输入<br> set modifiable<br> 再输入<br> set fileencoding=GB18030<br> 就可以保存为GB16030编码的文件了。这样在编译时，才不会出错。</p>
+<p> 对gedit来说，把文档写好后，只需要点击保存按钮。就会出现一个保存对话框。如图4 。在此对话框的下面的字符编码中选择GB18030就可以了（没在列表中的话，可以添加）。<br> 由于保存时忘记理性编码而出现编译通不过的情况经常发生，而且还会感觉莫名奇妙。所以大家在发现编译通不过时，首先就查一下是不是编码问题。<br> 列举Latex里面主要包括哪些知识。<br>字符集<br> 文字字符集<br> 数字字符集<br>环境集<br> 居中<br> \begin{center}<br> \end{center}<br> 左对齐<br> \begin{flushleft}<br> \end{flushleft}<br> 右对齐<br> \begin{flushright}<br> \end{flushright}<br> 列举环境<br> \begin{itemize}<br> \end{itemize}</p>
+<p> \begin{enumerate}<br> \end{enumerate}<br> 保持环境<br> \verb|  |<br> \begin{verbatim}<br> \end{verbatim}<br> 小页环境<br> \begin{minipage}{size}<br> \end{minipage}<br> 诗歌环境<br> \begin{verse}<br> \end{verse}</p>
+<p> 浮动表格环境<br> \begin{table}<br> \end{table}</p>
+<p> 固定表格环境<br> \begin{tabular}<br> \end{tabular}<br> 浮动图片环境<br> \begin{figure}<br> \end{figure}<br> 数学环境<br> $ $<br> $$ $$<br> \begin{equation}<br> \end{equation}<br> \begin{array}<br> \begin{array}<br> \begin{eqnarray}<br> \end{equarray}<br>10种字号命令<br> {\tiny  }<br> {\scriptsize  }<br> {\footnotesize  }<br> {\small  }<br> {\normalsize  }<br> {\large  }<br> {\Large  }<br> {\LARGE  }<br> {\huge  }<br> {\Huge  }<br>英文字体命令<br> {\rm  } 罗马字体<br> {\bf  } 黑体<br> {\it  } 意大利字体<br> {\sc  } 小号大写字体<br> {\sl  } 斜体<br> {\tt  } 打字机字体<br> {\cal } 花体<br> {\em  } 强调型字体<br>几种数字的格式<br> \arabic{}<br> \roman{}<br> \Roman{}<br> \alph{}<br> \Alph{}<br>命令<br>文献头命令<br> 标题命令<br> \title{ }<br> 作者命令<br> \author{ }<br> 日期命令<br> \date{ }<br> 页注命令<br> \thanks{}<br> \footnote{}<br>章节命令<br> 部分命令<br> \part{}<br> 章命令<br> \chapter{}<br> 节命令<br> \section{}<br> \subsection{}<br> \subsubsection{}<br> \subsubsubsection{}<br> 附录命令<br> \appendix{}<br>使用上面所说的命令，处理一般的文字文档应该没多大问题了。但是一篇文章中还有三个很重要的部分：公式，图片，表格现在我们还没法处理。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Latex文档的基本结构及基本样式&lt;br&gt;首先建议大家如果真的有心学，最好是去书店里买本书仔细看看，因为细节知识是非常多的。我这里只能讲解一些概要，不可能面面俱到。&lt;br&gt; Latex文档的基本结构如下：&lt;/p&gt;
+&lt;p&gt; 文档类型声明&lt;br&gt; 宏包包含区&lt;br&gt; 自定义命令
+    
+    </summary>
+    
+    
+      <category term="LaTex" scheme="http://memowish.com/tags/LaTex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>准备论文写作工具LaTex</title>
+    <link href="http://memowish.com/2017/02/27/%E8%BD%AC%E5%87%86%E5%A4%87%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7LaTex/"/>
+    <id>http://memowish.com/2017/02/27/转准备论文写作工具LaTex/</id>
+    <published>2017-02-27T06:24:45.000Z</published>
+    <updated>2017-02-27T06:37:18.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>比较一下Latex与WORD各自的优缺点。<br> 1：“所想即所得” vs. “所见即所得”<br> WORD所遵循的思想是“所见即所得”。因此，用它写东西非常直观。而且打印的效果与在屏幕上看到的效果一模一样。另外，它还具有一定的智能化（尽管这个功能很多时候会帮倒忙）。<br> 而Latex所遵循的思想是“所想即所得”。意思就是你脑子里想到什么，就可以做出什么样的版式效果来。这说明它有非常强大的功能，但对这一种强大的掌握有一条相对来说陡峭一点的学习曲线。<br> 用WORD写文章直接往里面写就行了，然后用那些数不清的格式按钮对文档进行格式编排。写这些文档必须在WORD软件环境里面（你无法拿记事本来写.doc的文档）。<br> 而用Latex写文章可以使用任何一个文本编辑器。Latex有它自己专用的文件后缀名，但它的格式完全是文本文件格式。这意味着你可以使用vim，gedit,记事本等中的任何一款写Latex文档。只不过在保存文件时把后缀名改.txt为.tex就可以了。<br>  用Latex写文章需要像写程序那样来写（请不要为我的语言所吓倒，那不是像C语言那样的程序代码，要简单得多），写完之后再编译。初看起来这不是自找麻烦吗？仅仅写一篇文章就要编个程，是不是有病了。不是的，你仔细想想：一篇论文不仅包括文字，还有图片，表格，公式（对我们来说很重要），还有很多各种各样的细微的格式和版式。把这些因素加在一起，就不是仅用WORD就能很好地处理的了。而对Latex来说，这些都是小菜一碟。<br> Latex文档中，是通过插入一些标记符来标记其逻辑结构的（这方面它和HTML, XML有点类似）。这些标记符都是一些常用的英文单词，十分好记。只要花点时间用熟悉了，就可以很快地写出一篇格式漂亮的文章出来。<br> 万事开头难嘛，最难的不是记忆那些命令，而是转变一种思维，就像使用LINUX一样。（Latex和LINUX搭配是天籁之合，我的讲解也是以LINUX上的Latex为主。建议大家读读王垠的《完全用LINUX工作，摈弃WINDOWS》）</p>
+<p> 2：如果你经常编排带数学公式的文章，你可能会发现，WORD编排出来的段落不是那么令人满意，如果左对齐，那么每行的右边参差不齐，很不美观；而如果选用两边对齐，那么WORD为了达到这点要求，可能就加大了某些词与词之间的间距，那样也达不到我们满意的文章格式。能不能在行末自动地把一个单词在音节处拆开， 并加上连字符呢？ Latex可以。<br>    你一定对MathType不陌生。公式编辑器用多了，你可能就发现，WORD把公式当作图片来处理。如果你要修改文章字体的大小，这时需要一个一个地调整公式的大小，这简直是无法承受的工作量；而且，你经常会发现，WORD的公式大小并不是和正文那么适配，许多时候看起来要么大了，要么小了，尤其是碰到大行的公式，页面编排都可能因此受到影响了。而LatexX美观的公式混排，统一的公式正文大小，会令你有耳目一新，相见恨晚的感觉。<br> 3：你是否有这样一种经验：当你用WORD写完一篇大一点的含有很多插图，表格和公式的论文交给导师审阅后，导师要求你在某个地方再详细一点，多列一些数据，多插几幅图片；而在另外一些地方简略一点。这时你不得不插入新的图片（表格，公式），结果一插，把后面的原先排好的版式全打乱了。这样你又不得不重新排一遍，排好后，检查时，又发现哪个地方公式不对，得重新写。于是用MathType写了一个“体积”大一点的公式，再插入文档中，结果又发现，后面的版式又莫名其妙地被改动了。又得重新来一遍，气死人了。就这样反反复复，一个本来不复杂的工作耗费了你太多的时间，同时把心情也搞孬(我们念pie,四声)了。真不爽！<br> 还有在论文中每个图（表，公式）都有编号，当你插入一个新的图时，就打乱了先前的编号顺序，所以你还得一个一个地将先前的位于这幅图片后的那些图片（表格，公式）的编号手工改正过来。天哪，这又是一件多么恐怖的事情――我这可是科技论文啊？密密麻麻的图片，公式。你叫我如何改啊！而且这还是一遍，说不定要使一篇论文最终定稿要改N次呢！<br> 现在你是否感觉到已经忍受不了呢？你需要一种解脱。不用怕，不用恼，救星到来啦！Latex，专门解决这个问题。<br> Latex处理这个问题是基于如下一种机制：<br>  它完全用一种逻辑结构标记符来标记哪里是文章题目、作者，哪部分是摘要，哪里是小节标题，哪里是图片，哪里是表格，哪里是公式，哪里是脚注，哪里是页眉，哪里需要两栏排版，哪里则只用单栏等等等等。它对每种不同的对像都设计了一个计数器，用来记录这一类型的对象到现在是第几个。比如图片计数器，编译程序在编译时会按从前到后的顺序寻找论文中所有图片，并且找到一个便给它编一个号（从1号开始依次递增），一直到文章末尾。<br> 利用这种机制，即使在中途又插入了很多新的图片（表格，公式）的情况下，只要它们的逻辑顺序是对的（废话，逻辑顺序不对就是你写论文的水平不够了！），那么Latex就会重新从头到尾再编一次号，这样前述的那种令人头痛的问题就迎刃而解了。思想就是把无谓的重复劳动拿给机器处理，机器处理这些小东西来速度是不用担心的。于是，你被解放出来了！什么是工作效率，这就是！<br> 4：很重要的一个问题是：WORD不太稳定。当你编辑一份含大量公式的文档时，会发现WORD有时会crash，有时甚至会莫名其妙地消失。这时如果我们的工作还未保存下来的话，那就太不幸了，只有重新输入一遍。而且弄得自己人心惶惶的。<br> Latex就不存在这个问题，它是一种纯文本格式，所占用的空间（硬盘，内存）极小。再加上极稳定的编辑器VIM，几乎不会出现crash的现象。<br> 5：从美学观点来看，我实在不敢敬同WORD中的公式佷漂亮这一说法。你去图书馆随便找一本比较有名气一点的外文杂志或外文著作。它们那里面的公式多么漂亮，整体布局多么赏心悦目。虽然我不敢说那些书全是用Latex编排的，但至少可以说明一点：WORD中的公式符号不好看。虽然我不敢说那些书全是用Latex编排的，但我敢说那些书里面大部分都是用Latex及类似的（基于TeX的）软件包编排的。不信，你去比较一下那些书里面的符号和Latex教材（外面书店有卖的）里面的符号形状是不是一样的。有点使用Latex经验的人一眼就可辨别其中奥秘。<br> 这是什么意思？<br> 对！它意味着，使用Latex，你能用很简单的方法排版出具有专业水准格式的论文和杂质甚至书籍出来！<br> 6：比较现实的是，现在很多国内外杂志，要求寄去的文章按Latex格式排版(可能有些杂志可以接收WORD文档，那你可能又要在茫茫软件海洋中寻找英文WORD，因为国外根本就没有中文WORD，而你的中文WORD文档在英文WORD中什么都看不出来)。那么会用Latex就更是你迫在眉睫的需要。</p>
+<pre><code>Latex就和vi一样，在你对他一点不懂的时候，你总觉得他很难相处，但是在你了解他之后，你会越来越发现他的好。然后会爱不释手，然后会五体投地，然后会――进步:-)
+
+Latex软件的版本
+</code></pre><p> Linux和Windows平台都有各自的Latex版本。Linux下的版本主要是teTex，Windows下的版本主要有mikTex。而中国有一个比较著名的版本CTeX，它是CTeX中文套装的简称，属于二次开发版本。它是把 mikTex和一些常用的相关工具，如GSview，winEdt，yap等包含在一起制作的一个简易安装程序。并且它对其中的中文支持进行了配置，使得安装后马上就能处理中文。<br> GSview是一个浏览.ps（一种打印格式）的工具。<br> winEdt是一个专为TeX用户设计的编辑器。（但是用过它的人都会感觉到，这个编辑器打开速度太慢，功能难用，字体，界面也不好看。难怪经常被网上的人骂为垃圾）<br> yap是用查看.dvi格式的一个工具，支持“反向位置查找”功能。（这个用起来还不错）<br> 而Linux下的teTeX，我并没有直接使用。我用的是由CTAN组织制作的一款软件包TeXLive2004（以TE为核心），里面包含了几乎所有的宏包，文档及查看、转换工具。我们常用到的主要有如下几个：<br> latex 用于编译.TeX文档（这个是核心）<br> xdvi  用于查看.dvi文档（这个文档是由前面那个.TeX文档经编译后生成的）<br> dvipdfm 用于将.dvi文件转换成.pdf文件。<br> 转换成.pdf文件后，就可以方便地与别人交流了。（要知道，pdf格式可是当今世界上的几乎所有较正式的组织的电子档案的首选保存格式呀。比如，AD公司（<a href="http://www.analog.com/）的所有芯片的技术资料全是以pdf格式提供）" target="_blank" rel="external">http://www.analog.com/）的所有芯片的技术资料全是以pdf格式提供）</a><br> 而据我的使用经验，TeXLive2004安装程序并不太适合中国用户，因为它完全不含有任何一种中文字体（当然，每一款比较好的中文字体都是有版权的）,尽管网上有怎样添加的方法，但是要添加起字体来特别特别麻烦――我前段时间一直为此大伤脑筋呢！<br>  于是我将其中的绝大部分东西抽取出来，与我搜集的十三种中文字体（转换后的。注：那些字体那是有版权的，请不要用于商业目的）合起来做成了一个软件包。同时还对里面的一些配置文件作了修改，使Linux下的用户直接也能使用中文字体了。（我称其为Latex2004完全版，包里面有详细的安装说明文档）<br> 到现在，可能大家会有这样一个疑问：现在软件有了，那该怎样使用呢？而且前面介绍那么多工具。那么用LATEX写论文到底是一种什么流程呢？下面就来回答这个问题。<br> 下面就以一个实例来说明。<br> 第1步：编写好一个.tex文档。并保存。假设文件名取为example.tex，存放在~/work/目录下。<br> 第2步：打开一个终端。输入 cd work 进入到~/work/目录下。<br> 第3步：在终端中输入 latex example.tex 对example.tex这个文档进行编译。通过编译，会生成一个新文件：example.dvi（当然原来那个example.tex文件还在那里，没有消失）。<br> .dvi文件是“与设备无关的文件”，这里的设备指CPU、显示器，打印机等。这意味着这种格式的文件无论在哪台机器上，无论是怎样的显示器，无论在哪个操作系统上，看到的效果都完全是一样的。<br> 当然，这样一种格式的文件得用专门的工具来查看。Linux下，这个工具就是xdvi。<br>  第4步：在终端中输入 xdvi example.dvi 就可以查看刚才由.tex文档生成的.dvi 文件了。在这一步中，你可以检查你所输入的那些东西是不是都出应有的效果了（当然，这个应有的效果就是你头脑中的预计――所想即所得，就初步体现在这里了），如果发现有错误的文字或不合适的版面，那么就可以再回到第1步去，修改后，再编译，再查看。直到自己满意为止。<br> 第5步：在终端中输入 dvipdfm example.dvi 就会将example.dvi文件转换成为 example.pdf 文件。这时就可以用pdf浏览器查看了。<br> 至此，一篇论文就基本完成了。归纳起来，就是如下步骤：<br>      latex  dvipdfm<br> .tex——-&gt;.dvi——-&gt;.pdf</p>
+<p>CTeX 套装 – 更新记录 – 下载中心</p>
+<p>下载中心</p>
+<p>新版CTeX套装即将发布，敬请期待！新版CTeX套装将由Harry Chen和Liam Huang接手负责开发，预计发布时间在4月份之前。新版本配置更合理，对新手更友好。此外由于变动较大，新版CTeX套装无法从旧版本直接升级。因此不着急的用户，特别是新手用户，建议等候新版本。</p>
+<p>有用户反映，安装程序在某些情况下可能覆盖 path 环境变量，原因不明。请在安装前注意备份 path 环境变量。</p>
+<p>测试版本</p>
+<pre><code>CTeX 2.9.3
+    清华TUNA开源镜像：https://mirrors.tuna.tsinghua.edu.cn/ctex/unstable/
+    中国科大开源镜像：http://mirrors.ustc.edu.cn/ctex/unstable/
+</code></pre><p>稳定版本</p>
+<pre><code>CTeX 2.9.2.164
+    清华TUNA开源镜像：https://mirrors.tuna.tsinghua.edu.cn/ctex/legacy/2.9/
+    中国科大开源镜像：http://mirrors.ustc.edu.cn/ctex/legacy/2.9/
+    百度网盘：https://pan.baidu.com/s/1jHQVq2U
+    文件说明：
+        CTeX_2.9.2.164.exe (203M) 包含 Basic 版 MiKTeX，占用空间小，会根据需要的宏包自动升级。MD5:615C7E9EFC020F5CE81461726D7AC1BE
+        CTeX_2.9.2.164_Full.exe (1.31G) 包含完整版 MiKTeX。MD5:D9ED7D4A24861A9A432BB9B5EDD8D9D1
+        CTeX_2.9.2.164_Update.exe (24M) 支持从 v2.9.1.160 升级。MD5:23C5B41E9BDCE431FE5B29C75DBF1A34
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比较一下Latex与WORD各自的优缺点。&lt;br&gt; 1：“所想即所得” vs. “所见即所得”&lt;br&gt; WORD所遵循的思想是“所见即所得”。因此，用它写东西非常直观。而且打印的效果与在屏幕上看到的效果一模一样。另外，它还具有一定的智能化（尽管这个功能很多时候会帮倒忙）。&lt;
+    
+    </summary>
+    
+    
+      <category term="LaTex" scheme="http://memowish.com/tags/LaTex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转——各年龄段如何爱孩子</title>
+    <link href="http://memowish.com/2017/02/21/%E8%BD%AC%E5%90%84%E2%80%94%E2%80%94%E4%B8%AA%E5%B9%B4%E9%BE%84%E6%AE%B5%E5%BC%A0%E5%A6%82%E4%BD%95%E7%88%B1%E5%AD%A9%E5%AD%90/"/>
+    <id>http://memowish.com/2017/02/21/转各——个年龄段张如何爱孩子/</id>
+    <published>2017-02-21T02:22:12.000Z</published>
+    <updated>2017-02-21T02:23:49.802Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="各个年龄段如何爱孩子-转"><a href="#各个年龄段如何爱孩子-转" class="headerlink" title="各个年龄段如何爱孩子 (转)"></a>各个年龄段如何爱孩子 (转)</h1><p>一个孩子0-18岁的成长历程分三个不同阶段，在三个不同阶段父母扮演应不同的角色。</p>
+<p>(一）0-6岁，爱等于陪伴</p>
+<pre><code>1、智力的塑造：0-6岁智力发育最快的，50%的智力在4岁前形成，聪明不是脑细胞有多少，而是脑细胞间的连接有多少。在某方面刺激多，脑神经元较粗。在某方面的智力就发达。
+
+ 2、情感培养：左脑发达：是逻辑思维强，右脑发达：是创造性思维强，想象力培育，以及完整的情感培养才会有完整的人格表现：这个时间段，不要对孩子约束太多，陪他玩，让他赢（每赢一次都增加他的自信）。培育他的温暖感。
+
+ 3、性格的塑造：建立概念，知对错（6岁之后千万不能动手），把教育放在故事里，少讲道理。有句话说到：习惯于有求必应，必致骄横无礼；习惯于有求无应，必致自卑消极。孩子的自信和自尊最重要。在这一点上家长要提起重视。
+</code></pre><p>（二）6-12岁，爱等于教练</p>
+<pre><code>孩子拥有第二个世界了：学校！进入群体社会，他感受到群体的力量，表扬或批评都起到暗示教育的作用。在语言和行为上传递爱的信息：爱是最伟大的动力。假如他能感受到爱的阳光和雨露，小树苗就茁壮成长。所以教练正面暗示的力量非常重要：你怎样评价孩子，孩子就会变成怎样；所以你希望孩子变成怎样，你就要怎样评价孩子。始终传递正思维，正语言，正能量。
+
+1、自信养成：一定要跟着孩子的兴趣走，不是为了让他成名成家。我们要多用拇指教育，而不用食指教育。12岁前要完成2万次的肯定。赞美一定要及时、当面批评要在宽松中严肃，这里可以引用三明治教育：缺点夹在优点中讲，批评夹在希望中讲（肯定--但是--相信）。做错了，错在哪里？改掉一次错，就会越来越好了。
+
+2、习惯养成：重视细节，所有得到都要经过自己的努力，对自己诚实。
+
+3、奖励和惩罚：关注他的喜好，等到该奖励的时候给他，让他因肯定而感动。不当众训斥，保护好他的自尊。孩子即使做错事，让你生气，也要把事情和爱分开，你犯错，应批评和惩罚，但惩罚不是为了发泄不满，而是为了教育，为了爱。每一次的教育都与爱连接在一起。
+
+4、责任养成：独立或依赖都是培养出来的，自己的事情自己做、认真做、做完整。家长代替他做，却无法代替一生；教会他做，他可受用一生。
+
+5、玩与学：兴趣是最好的老师。好好玩，才能好好学。
+</code></pre><p> （三）12-18岁，爱等于尊重</p>
+<pre><code>他正走在一条以自我为中心的路上：我长大了，要求平等了。你跟朋友怎么说话，就跟孩子怎么说话。
+
+1、家长和老师：别把老师的话当圣旨。让老师用欣赏的眼光看孩子：孩子哪些地方有进步？所有的孩子都怕老师告黑状。让孩子喜欢老师很重要。
+
+2、学业和成绩：孩子的心理健康比学习成绩更重要。一时的成绩，不能代表一生的成败，不断的成长，才能造就一生的成就。千万不要因为成绩差而让孩子产生歉疚感、负罪感。
+
+3、给思想：成为什么样的人？成为正直的人，善良的人，成为有故事的人，成为对家庭有贡献的人，成为对社会有贡献的人，赢得别人尊重的人。未来要成为一个领导人，能三吃亏：出钱的时候吃亏，出力的时候吃亏，讲话要舍得吃亏。
+
+4、给平台：鼓励去图书馆，培养阅读的习惯。励参加文体团队活动。鼓励在安全的前提下，行万里路。让孩子热爱生活，参加暑期亲子夏令营。
+
+5、给榜样：与谁同行，向谁学习。恰当的目标，鼓励达成。多关心、多沟通、多抚摸。抚摸对孩子心理影响巨大，传递理解、信任、尊重。
+永远记得让家成为每个孩子心中温暖的港湾，不要让家成为竞技场。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;各个年龄段如何爱孩子-转&quot;&gt;&lt;a href=&quot;#各个年龄段如何爱孩子-转&quot; class=&quot;headerlink&quot; title=&quot;各个年龄段如何爱孩子 (转)&quot;&gt;&lt;/a&gt;各个年龄段如何爱孩子 (转)&lt;/h1&gt;&lt;p&gt;一个孩子0-18岁的成长历程分三个不同阶段，在三个不
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>张家口之行——攻略</title>
+    <link href="http://memowish.com/2017/02/21/%E5%BC%A0%E5%AE%B6%E5%8F%A3%E4%B9%8B%E8%A1%8C%E2%80%94%E2%80%94%E6%94%BB%E7%95%A5/"/>
+    <id>http://memowish.com/2017/02/21/张家口之行——攻略/</id>
+    <published>2017-02-21T01:05:08.000Z</published>
+    <updated>2017-02-21T02:09:37.913Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="张家口之行续"><a href="#张家口之行续" class="headerlink" title="张家口之行续"></a>张家口之行续</h1><p>路线：北京——沙城（鸡鸣驿城）——宣化（三楼一壁、教堂、博物馆）– 张家口</p>
+<h2 id="鸡鸣驿"><a href="#鸡鸣驿" class="headerlink" title="鸡鸣驿"></a>鸡鸣驿</h2><p>北京至沙城 到了以后</p>
+<p>出来步行找到坐沙城至下花园的小巴车，招手即停  5元车费</p>
+<p>在鸡鸣驿景点门口下车即可，鸡鸣驿里面住了一个村的村民</p>
+<p>如果有认识的村民可以一起进去不用购票  四个门都可以进入</p>
+<p>村里面转一圈 然后登上城墙逛一圈   最多耗时两个小时</p>
+<p>出来鸡鸣驿 继续在下车的地方等小巴车 招手即停  从鸡鸣驿到下花园 3元车费</p>
+<p>在下花园车站购买去宣化的小巴车票 10元</p>
+<h2 id="宣化"><a href="#宣化" class="headerlink" title="宣化"></a>宣化</h2><p>从小巴车下来，可以坐1路公交也可以直接步行</p>
+<p>我入住的是七天优品酒店  属于快捷经济酒店</p>
+<p>条件也还可以</p>
+<p>从小巴下车的地方  宣城货运汽车站</p>
+<p>直接能看到南门楼  可以直接步行过去<br>10元门票  登楼逛一圈</p>
+<p>沿中轴线  宣化步行街一路走过去  镇朔楼  清远楼 票价均为10元</p>
+<p>再去宣化博物馆逛一圈  结束了宣化一日游</p>
+<h2 id="张家口"><a href="#张家口" class="headerlink" title="张家口"></a>张家口</h2><p>宣化坐公交102可以直达张家口平门</p>
+<p>但平门下来去大境门景区还有很远</p>
+<p>我按照攻略沿水泥路上山  直达太平山顶  顺便逛了逛山景 再沿路下山 直接到了大境门的城墙上</p>
+<p>这个线路可以省去10元门票   但缺点是要爬整个山  耗时约3到4小时  对体力要求较高  </p>
+<p>张家口风大 沙大； 市区貌似没啥景点了 ，但清真食品很地道，买了羊蹄和羊头肉 味道很赞<br> 在帝达购物广场对面 就是大众点评评价很高的巷子深小店附近  巷子深点评很好 但我跨越了大半个张家口市<br> 去了发现其还没到营业时间  也就没吃上  也就不知道味道到底如何  只知道酱蹄还是酱肘子68元一个 没舍得买</p>
+<p><img src="\img\haohanshi.jpg" style="display:block;margin:auto"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;张家口之行续&quot;&gt;&lt;a href=&quot;#张家口之行续&quot; class=&quot;headerlink&quot; title=&quot;张家口之行续&quot;&gt;&lt;/a&gt;张家口之行续&lt;/h1&gt;&lt;p&gt;路线：北京——沙城（鸡鸣驿城）——宣化（三楼一壁、教堂、博物馆）– 张家口&lt;/p&gt;
+&lt;h2 id=&quot;鸡鸣驿&quot;
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>张家口之行</title>
+    <link href="http://memowish.com/2017/02/20/%E5%BC%A0%E5%AE%B6%E5%8F%A3%E4%B9%8B%E8%A1%8C/"/>
+    <id>http://memowish.com/2017/02/20/张家口之行/</id>
+    <published>2017-02-20T08:41:26.000Z</published>
+    <updated>2017-02-21T02:09:19.606Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="张家口之行"><a href="#张家口之行" class="headerlink" title="张家口之行"></a>张家口之行</h1><p>应友人介绍，去其老家张家口两日游</p>
+<p>路线：北京——沙城（鸡鸣驿城）——宣化（三楼一壁、教堂、博物馆）– 张家口</p>
+<ol>
+<li>鸡鸣驿<br>北京至沙城 Y525火车07：12—09：19（5：30中关村去西直门换2号线至北京站）<br>北京到沙城火车约3小时，途中会经过官厅水库和66个隧道，路程曲折车速很慢，沿途风景不错<br>火车站左侧乘汽车至下花园的中巴车  半小时一趟 票价3元<br>沙城到鸡鸣驿乘小巴。火车站出站后右转至大马路左转直走，第二个红绿灯处为董存瑞环岛，左转可见一堆趴活小巴，乘到下花园的车告知司机鸡鸣驿下即可，车费5元，车程40分钟。<br>注意：此处为沙城去往周边县城的小巴车站，但是没有站牌。问路要说董存瑞环岛或者去下花园的小巴，不是长途汽车站，两处相隔甚远。火车站到小巴站步行约20分钟，打车6元，建议离开火车站前广场（避开趴活黑车）到大马路上再打车。去下花园的小巴每20分钟一趟。<br>行车半小时到鸡鸣驿下车门票40人民币 ；逛1个小时左右<br>坐中巴至宣化或下花园：<br>鸡鸣驿到宣化还是乘小巴，全程1.5小时左右。出城原路返回之前下车的路边，还是刚才来时的方向（东向西），等去下花园过路车，招手上车终点下车，车票3元。终点为下花园汽车站，站内换乘去宣化的小巴，车票10元。逛完了鸡鸣驿我就到鸡鸣驿对面的马路等车，这个时候你可以有两种坐车去宣化的方法，第一个这边等别的地方去宣化的过路车，看到车拦下就可以了。还有一种是坐沙城到下花园的车回下花园汽车站坐车到宣化。我是看到哪辆车先来就坐哪辆，我坐到下花园汽车站，然后转车到宣化。下花园到宣化的车票是10元。大概一个多小时那样到。<br><img src="\img\jimingyi.jpg" style="display:block;margin:auto"></li>
+<li><p>宣化<br>18号晚宿在宣化 “京西第一府”<br>宣化城又称宣府城址，位于河北省张家口市宣化区。宣化，汉、唐、辽、金、元、明诸朝历为塞外重镇。元为宣德府治。明洪武二十六年（1393年）在此设宣府左、右前三卫，为京防卫要地。次年，被封于此的谷王下令在土城原址上展筑新城，方24里，有7门，并筑关城。后”靖难之变”时，谷王遗城还京师，堵塞3门。宣德五年（1430年），在此设万四门外环瓮城设濠堑、吊桥，规制大备，成为明朝九边中建筑最为坚固的镇城。现城址基本保存，平面呈长方形，城墙总长约12120米，东西2960米，南北3100米，部分城墙保存完好。城墙底宽14米，顶宽5.4米，存高10米，四门旧址仍存。环有瓮城、瓮城外连月城，城四角建有角楼，城外设隍堑、护城河、吊桥等。城东部南北轴线上的拱极楼（南门）、镇朔楼（鼓楼）、清远楼（钟楼），宏伟壮观，把古城点缀得古色古香。宣化城的布局俨然为明代北京城之缩本，仅规模较小、门制不同而已。现在城体虽破环严重，但土垣基本完好。为全国少有明城之一，已列入河北省重点文物保护单位。<br>察哈尔省民主政府旧址，也是宣化博物馆，周一闭馆，可以进去看看的，免费开放的<br>宣化古城很值得一去的。宣化三楼，拱极楼（南门），镇朔楼（鼓楼），清远楼（钟楼），三楼位于宣化的南北轴线上。其中拱极楼和清远楼都能登楼，十块钱一个楼，价格不贵，学生和老人还有半价优惠。<br><img src="\img\gongjilou.jpg" style="display:block;margin:auto"><br><img src="\img\shenjingping.jpg" style="display:block;margin:auto"><br><img src="\img\xuanhualong.jpg" style="display:block;margin:auto"></p>
+</li>
+<li><p>张家口<br>大境门景区位于张家口城区最北侧，多趟公交车可达；作为万里长城重要关口，也是北方人所称“口外”的起点；看景区导游图大境门景区包含了西侧的西太平山公园，只游览大境门（大好河山）、拍照不需门票，上长城需要购票：淡季门票13元/人、旺季16元/人；自平门（多趟公交车终点站）向北沿水泥路上山不需门票，上到西太平山公园后向东可免费下到大境门，只是台阶路有点陡。<br>张家口堡，也叫堡子里，位置在张家口的市中心，商业中心带。是老张家口的坐标。里面保留了不少老建筑和文物，如你在里面可以发现很多“银行”，多数是当年晋商开的。张家口市展览馆的西侧，是免费的景区。<br>大境门，张家口市里的最主要的景点。万里长城中四大关卡之一，京都的北大门，历史兵家必争之地，连接边塞和内地的交通要道，也是蒙，汉回藏文化交融之地。门票：10块钱<br>张家口博物馆就不用去看了，去了会很失望，比宣化博物馆还小，还经常锁着门<br>我就是赶过去一看  里面就一个抗日同盟军展览  另一个展馆锁着  十分钟就看完了 很失望<br><img src="\img\shanhehaoda.jpg" style="display:block;margin:auto"></p>
+</li>
+</ol>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;张家口之行&quot;&gt;&lt;a href=&quot;#张家口之行&quot; class=&quot;headerlink&quot; title=&quot;张家口之行&quot;&gt;&lt;/a&gt;张家口之行&lt;/h1&gt;&lt;p&gt;应友人介绍，去其老家张家口两日游&lt;/p&gt;
+&lt;p&gt;路线：北京——沙城（鸡鸣驿城）——宣化（三楼一壁、教堂、博物馆）– 
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更改配置hexo报错</title>
+    <link href="http://memowish.com/2017/01/13/%E6%9B%B4%E6%94%B9%E9%85%8D%E7%BD%AEhexo%E6%8A%A5%E9%94%99/"/>
+    <id>http://memowish.com/2017/01/13/更改配置hexo报错/</id>
+    <published>2017-01-13T08:22:15.000Z</published>
+    <updated>2017-01-13T08:27:26.332Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更新了一下hexo设置，将原来的多说改为了友言评论"><a href="#更新了一下hexo设置，将原来的多说改为了友言评论" class="headerlink" title="更新了一下hexo设置，将原来的多说改为了友言评论"></a>更新了一下hexo设置，将原来的多说改为了友言评论</h1><p>#　但貌似以前发布的文章　嵌入了多说的引用　　感觉</p>
+<h1 id="因此-不停的报错，删掉历史文章就没可以了-损失惨重教训深刻呀"><a href="#因此-不停的报错，删掉历史文章就没可以了-损失惨重教训深刻呀" class="headerlink" title="因此 不停的报错，删掉历史文章就没可以了  损失惨重教训深刻呀"></a>因此 不停的报错，删掉历史文章就没可以了  损失惨重教训深刻呀</h1><p><img src="\img\hexoError.png" style="display:block;margin:auto"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;更新了一下hexo设置，将原来的多说改为了友言评论&quot;&gt;&lt;a href=&quot;#更新了一下hexo设置，将原来的多说改为了友言评论&quot; class=&quot;headerlink&quot; title=&quot;更新了一下hexo设置，将原来的多说改为了友言评论&quot;&gt;&lt;/a&gt;更新了一下hexo设置
+    
+    </summary>
+    
+    
+      <category term="HEXO" scheme="http://memowish.com/tags/HEXO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="http://memowish.com/2017/01/13/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>http://memowish.com/2017/01/13/Markdown基本语法/</id>
+    <published>2017-01-13T07:39:19.000Z</published>
+    <updated>2017-01-13T08:00:56.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>#转载<br>介绍Markdown的基本使用方法：</p>
+<pre><code>使用标题
+加粗、斜体
+分割线
+列表
+引用
+</code></pre><p>我写博客一般将可以独立的内容分节，每一节有一个标题，标题的字体应该与正文的字体有点区别。两个相邻节之间使用分割线分割开。需要强调或者特别说明的地方使用 粗体 或者 斜体 。</p>
+<p>列表用于列举可以并列的内容，这样看起来比较清晰。</p>
+<p>引用，可以用来做注意说明，也可以用来写引用的内容，比如别人说过的话。</p>
+<p>下面我们一一说明这些格式的语法。<br>使用标题</p>
+<p>比如，我开篇写的“简介”这两个字，就是标题格式，使用方式如下：</p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Markdown可以使用#来标示标题。一个#后面跟的内容是一级标题，一般一级标题是文章的大标题。两个#，后面跟的内容是二级标题，依次类推。正文中的标题，我一般用二级标题。</p>
+<p>下面是例子：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>加粗、斜体</p>
+<p>对指定文本进行加粗：</p>
+<p><strong>文本加粗</strong></p>
+<p>得到：</p>
+<pre><code>文本加粗
+</code></pre><p>对指定文本置斜：</p>
+<p><em>文本置斜</em></p>
+<p>得到：<br>    文本置斜</p>
+<p>对指定文本加粗并且置斜</p>
+<p><strong><em>文本加粗、置斜</em></strong><br>得到：<br>    文本加粗、置斜</p>
+<p>分割线</p>
+<p>分割线的语法：</p>
+<pre><code>空一行后，使用三个以上的短线、星号、或者下划线
+</code></pre><p>我一般在两个小节之间使用分割线。</p>
+<p>上面的例子中有三个分割线生成，如下所示：</p>
+<p>列表</p>
+<p>列表有两种，一种是无序列表，使用一些图标标记，没有序号；一种是有序列表，使用数字标记。<br>无序列表</p>
+<p>无序列表语法：</p>
+<pre><code>在‘-’号之后加一个空格，再跟列表项的内容。
+</code></pre><p>例如：</p>
+<ul>
+<li>花生</li>
+<li>香蕉</li>
+<li>菠萝</li>
+</ul>
+<p>得到：</p>
+<pre><code>花生
+香蕉
+菠萝
+</code></pre><p>也可以使用多级无序列表，只需要在低层列表符号之前再加一个空格。</p>
+<ul>
+<li>水果<ul>
+<li>香蕉</li>
+<li>菠萝</li>
+</ul>
+</li>
+<li>衣服<ul>
+<li>上衣</li>
+<li>裤子</li>
+</ul>
+</li>
+</ul>
+<p>得到：</p>
+<pre><code>水果
+    香蕉
+    菠萝
+衣服
+    上衣
+    裤子
+</code></pre><p>有序列表</p>
+<p>有序列表语法：</p>
+<pre><code>在数字和“.”号之后加一个空格，再跟列表项的内容。
+</code></pre><p>例如：</p>
+<ol>
+<li>把冰箱门打开</li>
+<li>把大象装进去</li>
+<li>把冰箱门带上</li>
+</ol>
+<p>得到：</p>
+<pre><code>把冰箱门打开
+把大象装进去
+把冰箱门带上
+</code></pre><p>也可以使用分级，使用方法与无序列表类似：在低层列表前再加一个空格。</p>
+<ol>
+<li>把冰箱门打开</li>
+<li>把大象装进去<ol>
+<li>给大象喝点水</li>
+<li>把大象的被子放进去</li>
+</ol>
+</li>
+<li>把冰箱门带上</li>
+</ol>
+<pre><code>把冰箱门打开
+把大象装进去
+    给大象喝点水
+    把大象的被子放进去
+把冰箱门带上
+</code></pre><p>引用</p>
+<p>引用的语法：</p>
+<pre><code>在“&gt;”符号之后跟一个空格，然后添加引用内容。
+</code></pre><p>例如：</p>
+<blockquote>
+<p>这是引用的文字啊！！！</p>
+</blockquote>
+<p>得到如下结果：</p>
+<pre><code>这是引用的文字啊！！！
+</code></pre><p>#总结</p>
+<p>Markdown 编辑器语法指南<br>基本技巧<br>代码</p>
+<p>如果你只想高亮语句中的某个函数名或关键字，可以使用 <code>function_name()</code> 实现</p>
+<p>通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">```javascript</div><div class="line">$(document).ready(function () &#123;</div><div class="line">    alert(&apos;hello world&apos;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<p>支持的语言：actionscript, apache, bash, clojure, cmake, coffeescript, cpp, cs, css, d, delphi, django, erlang, go, haskell, html, http, ini, java, javascript, json, lisp, lua, markdown, matlab, nginx, objectivec, perl, php, python, r, ruby, scala, smalltalk, sql, tex, vbscript, xml</p>
+<p>也可以使用 4 空格缩进，再贴上代码，实现相同的的效果</p>
+<pre><code>def g(x):
+    yield from range(x, 0, -1)
+yield from range(x)
+</code></pre><p>标题</p>
+<p>文章内容较多时，可以用标题分段：</p>
+<h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h2 id="大标题"><a href="#大标题" class="headerlink" title="大标题"></a>大标题</h2><h3 id="小标题"><a href="#小标题" class="headerlink" title="小标题"></a>小标题</h3><p>粗斜体</p>
+<p><em>斜体文本</em>    <em>斜体文本</em><br><strong>粗体文本</strong>    <strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong>    <strong><em>粗斜体文本</em></strong></p>
+<p>链接</p>
+<p>常用链接方法</p>
+<p>文字链接 <a href="http://链接网址" target="_blank" rel="external">链接名称</a><br>网址链接 <a href="http://链接网址" target="_blank" rel="external">http://链接网址</a></p>
+<p>高级链接技巧</p>
+<p>这个链接用 1 作为网址变量 <a href="http://www.google.com/logo.png" target="_blank" rel="external">Google</a>.<br>这个链接用 yahoo 作为网址变量 <a href="http://www.yahoo.com/" target="_blank" rel="external">Yahoo!</a>.<br>然后在文档的结尾为变量赋值（网址）</p>
+<p>列表</p>
+<p>普通无序列表</p>
+<ul>
+<li>列表文本前使用 [减号+空格]</li>
+</ul>
+<ul>
+<li>列表文本前使用 [加号+空格]</li>
+</ul>
+<ul>
+<li>列表文本前使用 [星号+空格]</li>
+</ul>
+<p>普通有序列表</p>
+<ol>
+<li>列表前使用 [数字+空格]</li>
+<li>我们会自动帮你添加数字</li>
+<li>不用担心数字不对，显示的时候我们会自动把这行的 7 纠正为 3</li>
+</ol>
+<p>列表嵌套</p>
+<ol>
+<li>列出所有元素：<ul>
+<li>无序列表元素 A<ol>
+<li>元素 A 的有序子列表</li>
+</ol>
+</li>
+<li>前面加四个空格</li>
+</ul>
+</li>
+<li>列表里的多段换行：<br> 前面必须加四个空格，<br> 这样换行，整体的格式不会乱</li>
+<li><p>列表里引用：</p>
+<blockquote>
+<p>前面空一行<br>仍然需要在 &gt;  前面加四个空格</p>
+</blockquote>
+</li>
+<li><p>列表里代码段：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">前面四个空格，之后按代码语法 ``` 书写</div></pre></td></tr></table></figure>
+<pre><code>或者直接空八个，引入代码块
+</code></pre></li>
+</ol>
+<p>引用</p>
+<p>普通引用</p>
+<blockquote>
+<p>引用文本前使用 [大于号+空格]<br>折行可以不加，新起一行都要加上哦</p>
+</blockquote>
+<p>引用里嵌套引用</p>
+<blockquote>
+<p>最外层引用</p>
+<blockquote>
+<p>多一个 &gt; 嵌套一层引用</p>
+<blockquote>
+<p>可以嵌套很多层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>引用里嵌套列表</p>
+<blockquote>
+<ul>
+<li>这是引用里嵌套的一个列表</li>
+<li>还可以有子列表<ul>
+<li>子列表需要从 - 之后延后四个空格开始</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>引用里嵌套代码块</p>
+<blockquote>
+<pre><code>同样的，在前面加四个空格形成代码块
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; 或者使用 ``` 形成代码块</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+</blockquote>
+<p>图片</p>
+<p>跟链接的方法区别在于前面加了个感叹号 !，这样是不是觉得好记多了呢？</p>
+<p><img src="http://图片网址" alt="图片名称"></p>
+<p>当然，你也可以像网址那样对图片网址使用变量</p>
+<p>这个链接用 1 作为网址变量 <a href="http://www.google.com/logo.png" target="_blank" rel="external">Google</a>.<br>然后在文档的结尾位变量赋值（网址）</p>
+<p>也可以使用 HTML 的图片语法来自定义图片的宽高大小</p>
+<p><img src="htt://example.com/sample.png" width="400" height="100"></p>
+<p>换行</p>
+<p>如果另起一行，只需在当前行结尾加 2 个空格</p>
+<p>在当前行的结尾加 2 个空格<br>这行就会新起一行</p>
+<p>如果是要起一个新段落，只需要空出一行即可。<br>分隔符</p>
+<p>如果你有写分割线的习惯，可以新起一行输入三个减号-。当前后都有段落时，请空出一行：</p>
+<p>前面的段落</p>
+<hr>
+<p>后面的段落</p>
+<p>高级技巧<br>行内 HTML 元素</p>
+<p>目前只支持部分段内 HTML 元素效果，包括 <kdb> <b> <i> <em> <sup> <sub> <br> ，如</sub></sup></em></i></b></kdb></p>
+<p>键位显示</p>
+<p>使用 <kbd>Ctrl<kbd>+<kbd>Alt<kbd>+<kbd>Del<kbd> 重启电脑</kbd></kbd></kbd></kbd></kbd></kbd></p>
+<p>代码块</p>
+<p>使用 <pre></pre> 元素同样可以形成代码块</p>
+<p>粗斜体</p>
+<p><b> Markdown 在此处同样适用，如 <em>加粗</em> </b></p>
+<p>符号转义</p>
+<p>如果你的描述中需要用到 markdown 的符号，比如 <em> # * 等，但又不想它被转义，这时候可以在这些符号前加反斜杠，如 \</em> # * 进行避免。</p>
+<p>_不想这里的文本变斜体_<br>**不想这里的文本被加粗**</p>
+<p>扩展</p>
+<p>支持 jsfiddle、gist、runjs、优酷视频，直接填写 url，在其之后会自动添加预览点击会展开相关内容。</p>
+<p><a href="http://{url_of_the_fiddle}/embedded/[{tabs}/[{style}]]/" target="_blank" rel="external">http://{url_of_the_fiddle}/embedded/[{tabs}/[{style}]]/</a><br><a href="https://gist.github.com/{gist_id}" target="_blank" rel="external">https://gist.github.com/{gist_id}</a><br><a href="http://runjs.cn/detail/{id}" target="_blank" rel="external">http://runjs.cn/detail/{id}</a><br><a href="http://v.youku.com/v_show/id_{video_id}.html" target="_blank" rel="external">http://v.youku.com/v_show/id_{video_id}.html</a></p>
+<p>公式</p>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
+<p>$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$</p>
+<p>$$<br>x \href{why-equal.html}{=} y^2 + 1<br>$$</p>
+<p>同时也支持 HTML 属性，如：</p>
+<p>$$ (x+1)^2 = \class{hidden}{(x+1)(x+1)} $$</p>
+<p>$$<br>(x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#转载&lt;br&gt;介绍Markdown的基本使用方法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;使用标题
+加粗、斜体
+分割线
+列表
+引用
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我写博客一般将可以独立的内容分节，每一节有一个标题，标题的字体应该与正文的字体有点区别。两个相邻节之间使用分割线分割开
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://memowish.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>膜拜大神互联网之父Vint Cerf</title>
+    <link href="http://memowish.com/2017/01/13/%E8%86%9C%E6%8B%9C%E5%A4%A7%E7%A5%9E%E4%BA%92%E8%81%94%E7%BD%91%E4%B9%8B%E7%88%B6Vint-Cerf/"/>
+    <id>http://memowish.com/2017/01/13/膜拜大神互联网之父Vint-Cerf/</id>
+    <published>2017-01-13T07:32:07.000Z</published>
+    <updated>2017-01-13T08:21:09.025Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="听了大神的报告，膜拜一下"><a href="#听了大神的报告，膜拜一下" class="headerlink" title="听了大神的报告，膜拜一下"></a>听了大神的报告，膜拜一下</h1><h1 id="one-of-互联网之父-由于人太多-就没上去跟大神合影"><a href="#one-of-互联网之父-由于人太多-就没上去跟大神合影" class="headerlink" title="one of 互联网之父   由于人太多 就没上去跟大神合影"></a>one of 互联网之父   由于人太多 就没上去跟大神合影</h1><h1 id="很和善的老头，报告结束后特意留出时间供大家合影。"><a href="#很和善的老头，报告结束后特意留出时间供大家合影。" class="headerlink" title="很和善的老头，报告结束后特意留出时间供大家合影。"></a>很和善的老头，报告结束后特意留出时间供大家合影。</h1><p><img src="\img\Dr_Vint_Cerf.jpg" style="display:block;margin:auto"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;听了大神的报告，膜拜一下&quot;&gt;&lt;a href=&quot;#听了大神的报告，膜拜一下&quot; class=&quot;headerlink&quot; title=&quot;听了大神的报告，膜拜一下&quot;&gt;&lt;/a&gt;听了大神的报告，膜拜一下&lt;/h1&gt;&lt;h1 id=&quot;one-of-互联网之父-由于人太多-就没上去跟大
+    
+    </summary>
+    
+    
+      <category term="生活琐事" scheme="http://memowish.com/tags/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+  </entry>
+  
+</feed>
