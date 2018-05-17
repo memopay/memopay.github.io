@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://memowish.com/"/>
-  <updated>2017-05-21T08:37:14.313Z</updated>
+  <updated>2018-05-17T23:04:08.458Z</updated>
   <id>http://memowish.com/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大型机</title>
+    <link href="http://memowish.com/2018/05/18/%E5%A4%A7%E5%9E%8B%E6%9C%BA/"/>
+    <id>http://memowish.com/2018/05/18/大型机/</id>
+    <published>2018-05-17T23:03:37.000Z</published>
+    <updated>2018-05-17T23:04:08.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>术篇人物介绍：</p>
+<p>大Boss：Big Wheel 技术总监，负责技术团队管理和核心产品的构架。</p>
+<p>老李：李外行，小Z的直属领导，辗转多级后向大B汇报。</p>
+<p>小曾：曾言，工作在一线的技术工程师，事多钱少牢骚大。</p>
+<h2 id="小曾去搞个大型机来玩玩！"><a href="#小曾去搞个大型机来玩玩！" class="headerlink" title="小曾去搞个大型机来玩玩！"></a>小曾去搞个大型机来玩玩！</h2><p>老李站在自己那间宽敞的无窗办公室门口冲着工位上的曾言吆喝了起来。</p>
+<p>小曾十脸懵逼的看着老李：“大型机？是个啥，纳尼，我不是在做梦吧，弄这干啥咧”，脑海中不禁浮现了这样的场景：<br><img src="http://p8uu8ppq2.bkt.clouddn.com/ENICA01.jpg" alt="第一台计算机"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1946年2月14日，在美国宾夕法尼亚大学展示了人类历史上第一台现代电子计算机“埃尼阿克”(ENIAC)。</div><div class="line">这个庞然大物占地面积达170平方米，重达30多吨。</div></pre></td></tr></table></figure></p>
+<p><img src="http://p8uu8ppq2.bkt.clouddn.com/ENICA.jpg" alt="第一台计算机"></p>
+<p>抑或又是这样的场景:</p>
+<p><img src="http://p8uu8ppq2.bkt.clouddn.com/chinamainframe.jpg" alt="" title="中国第一台大型机银河"></p>
+<p>或者又是这样的：</p>
+<p>​      老李重重的点了点头：”上面领导已经发话了，公司技术支撑要高端大气上档次。经过大Boss带队半年的考察调研，决定引进大型机系统作为业务生产平台，机房已经按需求腾挪好了，后面你负责跟IBM部署团队对接。小曾，这可是提升你个人能力的好机会，一定要珍惜！”说完，捧着泡满枸杞的咖啡伴侣大玻璃杯踱回了办公室。</p>
+<h3 id="大型机的前世今生"><a href="#大型机的前世今生" class="headerlink" title="大型机的前世今生"></a>大型机的前世今生</h3><p>​     小曾虽然没见过猪跑，可好歹还是吃过猪肉的。应对上头甩锅的莫名任务也不是十次八次了，拉开架势摆出了起手式：百度大法（当然谷歌大法更好，不能同意更多）。百度百科曰：“大型机，或者称大型主机，英文名mainframe。大型机使用专用的处理器指令集、操作系统和应用软件。大型机一词，最初是指装在非常大的带框铁盒子里的大型计算机系统，以用来同小一些的迷你机和微型机有所区别。大多数时候它却是指system/360 开始的一系列的IBM计算机。这个词也可以用来指由其他厂商相应系统。”</p>
+<p>作为大型机的代名词祖师爷，蓝色巨人IBM早在2005年就把PC业务打包给联想退出了PC制造领域，摆脱了低附加值的pc厂商角色，后续连带服务器系列也一并脱手转给联想从大部分硬件生产抽身而去。但是，居然似乎好像蓝色巨人看来将大型机业务永久保留下去。虽然根据美国的红旗条款，大型机属于禁售中国的技术，但也可以卖给欧洲啥的盟国嘛。居然在IBM转型云计算云平台业务的今天，仍然保留且持续对大型机业务的投资。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;术篇人物介绍：&lt;/p&gt;
+&lt;p&gt;大Boss：Big Wheel 技术总监，负责技术团队管理和核心产品的构架。&lt;/p&gt;
+&lt;p&gt;老李：李外行，小Z的直属领导，辗转多级后向大B汇报。&lt;/p&gt;
+&lt;p&gt;小曾：曾言，工作在一线的技术工程师，事多钱少牢骚大。&lt;/p&gt;
+&lt;h2 id=&quot;小曾去
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>感觉智商不够用</title>
@@ -129,7 +164,7 @@
 <h2 id="关于收费"><a href="#关于收费" class="headerlink" title="关于收费"></a>关于收费</h2><p><strong>马克飞象</strong></p>
 <h2 id="反馈与建议"><a href="#反馈与建议" class="headerlink" title="反馈与建议"></a>反馈与建议</h2><ul>
 <li>微博：<a href="http://weibo.com/u/2788354117" target="_blank" rel="external">@马克飞象</a>，<a href="http://weibo.com/ggock" title="开发者个人账号" target="_blank" rel="external">@GGock</a></li>
-<li>邮箱：<a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#104;&#117;&#115;&#116;&#x67;&#111;&#99;&#107;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#104;&#117;&#115;&#116;&#x67;&#111;&#99;&#107;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></li>
+<li>邮箱：<a href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#104;&#x75;&#115;&#x74;&#103;&#x6f;&#99;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#104;&#x75;&#115;&#x74;&#103;&#x6f;&#99;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></li>
 </ul>
 <hr>
 <p>感谢阅读这份帮助文档开启全新的记录与分享体验吧。</p>
@@ -357,43 +392,6 @@
     
     
       <category term="GMAIL" scheme="http://memowish.com/tags/GMAIL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>承德避暑山庄</title>
-    <link href="http://memowish.com/2017/03/06/%E5%A4%A7%E5%9E%8B%E6%9C%BA%E5%BA%94%E7%94%A8/"/>
-    <id>http://memowish.com/2017/03/06/大型机应用/</id>
-    <published>2017-03-06T03:32:23.000Z</published>
-    <updated>2018-05-17T23:01:15.290Z</updated>
-    
-    <content type="html"><![CDATA[<p>术篇人物介绍：</p>
-<p>大Boss：Big Wheel 技术总监，负责技术团队管理和核心产品的构架。</p>
-<p>老李：李外行，小Z的直属领导，辗转多级后向大B汇报。</p>
-<p>小曾：曾言，工作在一线的技术工程师，事多钱少牢骚大。</p>
-<h2 id="小曾去搞个大型机来玩玩！"><a href="#小曾去搞个大型机来玩玩！" class="headerlink" title="小曾去搞个大型机来玩玩！"></a>小曾去搞个大型机来玩玩！</h2><p>老李站在自己那间宽敞的无窗办公室门口冲着工位上的曾言吆喝了起来。</p>
-<p>小曾十脸懵逼的看着老李：“大型机？是个啥，纳尼，我不是在做梦吧，弄这干啥咧”，脑海中不禁浮现了这样的场景：<br><img src="http://p8uu8ppq2.bkt.clouddn.com/ENICA01.jpg" alt="第一台计算机"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1946年2月14日，在美国宾夕法尼亚大学展示了人类历史上第一台现代电子计算机“埃尼阿克”(ENIAC)。</div><div class="line">这个庞然大物占地面积达170平方米，重达30多吨。</div></pre></td></tr></table></figure></p>
-<p><img src="http://p8uu8ppq2.bkt.clouddn.com/ENICA.jpg" alt="第一台计算机"></p>
-<p>抑或又是这样的场景:</p>
-<p><img src="http://p8uu8ppq2.bkt.clouddn.com/chinamainframe.jpg" alt="" title="中国第一台大型机银河"></p>
-<p>或者又是这样的：</p>
-<p>​      老李重重的点了点头：”上面领导已经发话了，公司技术支撑要高端大气上档次。经过大Boss带队半年的考察调研，决定引进大型机系统作为业务生产平台，机房已经按需求腾挪好了，后面你负责跟IBM部署团队对接。小曾，这可是提升你个人能力的好机会，一定要珍惜！”说完，捧着泡满枸杞的咖啡伴侣大玻璃杯踱回了办公室。</p>
-<h3 id="大型机的前世今生"><a href="#大型机的前世今生" class="headerlink" title="大型机的前世今生"></a>大型机的前世今生</h3><p>​     小曾虽然没见过猪跑，可好歹还是吃过猪肉的。应对上头甩锅的莫名任务也不是十次八次了，拉开架势摆出了起手式：百度大法（当然谷歌大法更好，不能同意更多）。百度百科曰：“大型机，或者称大型主机，英文名mainframe。大型机使用专用的处理器指令集、操作系统和应用软件。大型机一词，最初是指装在非常大的带框铁盒子里的大型计算机系统，以用来同小一些的迷你机和微型机有所区别。大多数时候它却是指system/360 开始的一系列的IBM计算机。这个词也可以用来指由其他厂商相应系统。”</p>
-<p>作为大型机的代名词祖师爷，蓝色巨人IBM早在2005年就把PC业务打包给联想退出了PC制造领域，摆脱了低附加值的pc厂商角色，后续连带服务器系列也一并脱手转给联想从大部分硬件生产抽身而去。但是，居然似乎好像蓝色巨人看来将大型机业务永久保留下去。虽然根据美国的红旗条款，大型机属于禁售中国的技术，但也可以卖给欧洲啥的盟国嘛。居然在IBM转型云计算云平台业务的今天，仍然保留且持续对大型机业务的投资。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;术篇人物介绍：&lt;/p&gt;
-&lt;p&gt;大Boss：Big Wheel 技术总监，负责技术团队管理和核心产品的构架。&lt;/p&gt;
-&lt;p&gt;老李：李外行，小Z的直属领导，辗转多级后向大B汇报。&lt;/p&gt;
-&lt;p&gt;小曾：曾言，工作在一线的技术工程师，事多钱少牢骚大。&lt;/p&gt;
-&lt;h2 id=&quot;小曾去
-    
-    </summary>
-    
-    
-      <category term="术与道系列之术篇：" scheme="http://memowish.com/tags/%E6%9C%AF%E4%B8%8E%E9%81%93%E7%B3%BB%E5%88%97%E4%B9%8B%E6%9C%AF%E7%AF%87%EF%BC%9A/"/>
     
   </entry>
   
